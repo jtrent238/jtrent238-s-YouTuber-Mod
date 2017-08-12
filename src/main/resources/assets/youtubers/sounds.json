@@ -1,0 +1,7 @@
+{
+    "Laurie201_living": {"category": "master","sounds": [{"name": "Laurie201_living","stream": false}]},
+	"Laurie201_living_1": {"category": "master","sounds": [{"name": "Laurie201_living","stream": false}]},
+	"Laurie201_living_2": {"category": "master","sounds": [{"name": "Laurie201_living","stream": false}]},
+	"Laurie201_death": {"category": "master","sounds": [{"name": "Laurie201_death","stream": false}]},
+	"Laurie201_hurt": {"category": "master","sounds": [{"name": "Laurie201_hurt","stream": false}]}
+	}

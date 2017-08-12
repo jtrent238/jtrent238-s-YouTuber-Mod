@@ -1,0 +1,24 @@
+//jtrent238's YouTuber Mod Language File
+
+entity.EntityxJSQ.name=xJSQ
+entity.Entityblohod.name=blohod
+entity.EntityDanTDM.name=DanTDM
+entity.EntityLaurie201.name=Laurie201
+
+item.ItemSpawnEgg.name=Spawn Egg
+item.ItemxJSQIngot.name=xJSQ Ingot
+
+item.ItemxJSQHelment.name=xJSQ Helment
+item.ItemxJSQChestplate.name=xJSQ Chestplate
+item.ItemxJSQLeggings.name=xJSQ Leggings
+item.ItemxJSQBoots.name=xJSQ Boots
+
+item.ItemxJSQSword.name=xJSQ Sword
+item.ItemxJSQPickaxe.name=xJSQ Pickaxe
+item.ItemxJSQAxe.name=xJSQ Axe
+item.ItemxJSQShovel.name=xJSQ Shovel
+item.ItemxJSQHoe.name=xJSQ Shovel
+item.ItemxJSQMultiTool.name=xJSQ Multitool
+
+tile.BlockxJSQOre.name=xJSQ Ore
+tile.BlockxJSQ.name=xJSQ Block
