@@ -2,9 +2,14 @@ package com.jtrent238.youtubers.client;
 
 import com.jtrent238.youtubers.common.CommonProxy;
 import com.jtrent238.youtubers.entity.youtuber.EntityDanTDM;
+import com.jtrent238.youtubers.entity.youtuber.EntityHeyItsLuigi;
+import com.jtrent238.youtubers.entity.youtuber.EntityJoy_Rider_2284;
 import com.jtrent238.youtubers.entity.youtuber.EntityLaurie201;
 import com.jtrent238.youtubers.entity.youtuber.EntitySethBling;
 import com.jtrent238.youtubers.entity.youtuber.Entityblohod;
+import com.jtrent238.youtubers.entity.youtuber.EntityskythekidRS;
+import com.jtrent238.youtubers.entity.player.EntityHER08RINE;
+import com.jtrent238.youtubers.entity.player.Entitycaptainspy6;
 import com.jtrent238.youtubers.entity.youtuber.EntityxJSQ;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
@@ -32,6 +37,13 @@ public class ClientProxy extends CommonProxy
     RenderingRegistry.registerEntityRenderingHandler(EntityDanTDM.class, new RenderLiving(new ModelBiped(), 0){protected ResourceLocation getEntityTexture(Entity par1Entity){return new ResourceLocation("youtubers:textures/entity/youtuber/DanTDM.png");}});
     RenderingRegistry.registerEntityRenderingHandler(EntityLaurie201.class, new RenderLiving(new ModelBiped(), 0){protected ResourceLocation getEntityTexture(Entity par1Entity){return new ResourceLocation("youtubers:textures/entity/youtuber/Laurie201.png");}});
     RenderingRegistry.registerEntityRenderingHandler(EntitySethBling.class, new RenderLiving(new ModelBiped(), 0){protected ResourceLocation getEntityTexture(Entity par1Entity){return new ResourceLocation("youtubers:textures/entity/youtuber/SethBling.png");}});
+    RenderingRegistry.registerEntityRenderingHandler(EntityskythekidRS.class, new RenderLiving(new ModelBiped(), 0){protected ResourceLocation getEntityTexture(Entity par1Entity){return new ResourceLocation("youtubers:textures/entity/youtuber/skythekidRS.png");}});
+    RenderingRegistry.registerEntityRenderingHandler(EntityHeyItsLuigi.class, new RenderLiving(new ModelBiped(), 0){protected ResourceLocation getEntityTexture(Entity par1Entity){return new ResourceLocation("youtubers:textures/entity/youtuber/HeyItsLuigi.png");}});
+    RenderingRegistry.registerEntityRenderingHandler(EntityJoy_Rider_2284.class, new RenderLiving(new ModelBiped(), 0){protected ResourceLocation getEntityTexture(Entity par1Entity){return new ResourceLocation("youtubers:textures/entity/youtuber/Joy_Rider_2284.png");}});
+    
+    //NOT YOUTUBERS
+    RenderingRegistry.registerEntityRenderingHandler(Entitycaptainspy6.class, new RenderLiving(new ModelBiped(), 0){protected ResourceLocation getEntityTexture(Entity par1Entity){return new ResourceLocation("youtubers:textures/entity/player/captainspy6.png");}});
+    RenderingRegistry.registerEntityRenderingHandler(EntityHER08RINE.class, new RenderLiving(new ModelBiped(), 0){protected ResourceLocation getEntityTexture(Entity par1Entity){return new ResourceLocation("youtubers:textures/entity/player/HER08RINE.png");}});
 
     
   }

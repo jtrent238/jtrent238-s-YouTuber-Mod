@@ -1,24 +1,175 @@
 //jtrent238's YouTuber Mod Language File
 
-entity.EntityxJSQ.name=xJSQ
+
 entity.Entityblohod.name=blohod
-entity.EntityDanTDM.name=DanTDM
-entity.EntityLaurie201.name=Laurie201
 
+	//Players
+entity.Entitycaptainspy6.name=captainspy6
+entity.EntityHER08RINE.name=HER08RINE
+
+	//other Items
 item.ItemSpawnEgg.name=Spawn Egg
-item.ItemxJSQIngot.name=xJSQ Ingot
 
+	//xJSQ
+entity.EntityxJSQ.name=xJSQ
+item.ItemxJSQIngot.name=xJSQ Ingot
 item.ItemxJSQHelment.name=xJSQ Helment
 item.ItemxJSQChestplate.name=xJSQ Chestplate
 item.ItemxJSQLeggings.name=xJSQ Leggings
 item.ItemxJSQBoots.name=xJSQ Boots
-
 item.ItemxJSQSword.name=xJSQ Sword
 item.ItemxJSQPickaxe.name=xJSQ Pickaxe
 item.ItemxJSQAxe.name=xJSQ Axe
 item.ItemxJSQShovel.name=xJSQ Shovel
 item.ItemxJSQHoe.name=xJSQ Shovel
 item.ItemxJSQMultiTool.name=xJSQ Multitool
-
+item.ItemxJSQBeatingStick.name=xJSQ's Beating Stick
 tile.BlockxJSQOre.name=xJSQ Ore
 tile.BlockxJSQ.name=xJSQ Block
+
+	//DanTDM
+entity.EntityDanTDM.name=DanTDM
+item.ItemDanTDMIngot.name=DanTDM Ingot
+item.ItemDanTDMHelment.name=DanTDM Helment
+item.ItemDanTDMChestplate.name=DanTDM Chestplate
+item.ItemDanTDMLeggings.name=DanTDM Leggings
+item.ItemDanTDMBoots.name=DanTDM Boots
+item.ItemDanTDMSword.name=DanTDM Sword
+item.ItemDanTDMPickaxe.name=DanTDM Pickaxe
+item.ItemDanTDMAxe.name=DanTDM Axe
+item.ItemDanTDMShovel.name=DanTDM Shovel
+item.ItemDanTDMHoe.name=DanTDM Shovel
+item.ItemDanTDMMultiTool.name=DanTDM Multitool
+item.ItemDiamondMinecart.name=Diamond Minecart
+tile.BlockDanTDMOre.name=DanTDM Ore
+tile.BlockDanTDM.name=DanTDM Block
+
+	//SethBling
+entity.EntitySethBling.name=SethBling
+item.ItemSethBlingIngot.name=SethBling Ingot
+item.ItemSethBlingHelment.name=SethBling Helment
+item.ItemSethBlingChestplate.name=SethBling Chestplate
+item.ItemSethBlingLeggings.name=SethBling Leggings
+item.ItemSethBlingBoots.name=SethBling Boots
+item.ItemSethBlingSword.name=SethBling Sword
+item.ItemSethBlingPickaxe.name=SethBling Pickaxe
+item.ItemSethBlingAxe.name=SethBling Axe
+item.ItemSethBlingShovel.name=SethBling Shovel
+item.ItemSethBlingHoe.name=SethBling Shovel
+item.ItemSethBlingMultiTool.name=SethBling Multitool
+tile.BlockSethBlingOre.name=SethBling Ore
+tile.BlockSethBling.name=SethBling Block
+
+	//Laurie201
+entity.EntityLaurie201.name=Laurie201
+item.ItemLaurie201Ingot.name=Laurie201 Ingot
+item.ItemLaurie201Helment.name=Laurie201 Helment
+item.ItemLaurie201Chestplate.name=Laurie201 Chestplate
+item.ItemLaurie201Leggings.name=Laurie201 Leggings
+item.ItemLaurie201Boots.name=Laurie201 Boots
+item.ItemLaurie201Sword.name=Laurie201 Sword
+item.ItemLaurie201Pickaxe.name=Laurie201 Pickaxe
+item.ItemLaurie201Axe.name=Laurie201 Axe
+item.ItemLaurie201Shovel.name=Laurie201 Shovel
+item.ItemLaurie201Hoe.name=Laurie201 Shovel
+item.ItemLaurie201MultiTool.name=Laurie201 Multitool
+tile.BlockLaurie201Ore.name=Laurie201 Ore
+tile.BlockLaurie201.name=Laurie201 Block
+
+	//blohod
+entity.Entityblohod.name=blohod
+item.ItemblohodIngot.name=blohod Ingot
+item.ItemblohodHelment.name=blohod Helment
+item.ItemblohodChestplate.name=blohod Chestplate
+item.ItemblohodLeggings.name=blohod Leggings
+item.ItemblohodBoots.name=blohod Boots
+item.ItemblohodSword.name=blohod Sword
+item.ItemblohodPickaxe.name=blohod Pickaxe
+item.ItemblohodAxe.name=blohod Axe
+item.ItemblohodShovel.name=blohod Shovel
+item.ItemblohodHoe.name=blohod Shovel
+item.ItemblohodMultiTool.name=blohod Multitool
+tile.BlockblohodOre.name=blohod Ore
+tile.Blockblohod.name=blohod Block
+
+	//skythekidRS
+entity.EntityskythekidRS.name=skythekidRS
+item.ItemskythekidRSIngot.name=skythekidRS Ingot
+item.ItemskythekidRSHelment.name=skythekidRS Helment
+item.ItemskythekidRSChestplate.name=skythekidRS Chestplate
+item.ItemskythekidRSLeggings.name=skythekidRS Leggings
+item.ItemskythekidRSBoots.name=skythekidRS Boots
+item.ItemskythekidRSSword.name=skythekidRS Sword
+item.ItemskythekidRSPickaxe.name=skythekidRS Pickaxe
+item.ItemskythekidRSAxe.name=skythekidRS Axe
+item.ItemskythekidRSShovel.name=skythekidRS Shovel
+item.ItemskythekidRSHoe.name=skythekidRS Shovel
+item.ItemskythekidRSMultiTool.name=skythekidRS Multitool
+tile.BlockskythekidRSOre.name=skythekidRS Ore
+tile.BlockskythekidRS.name=skythekidRS Block
+
+	//HeyItsLuigi
+entity.EntityHeyItsLuigi.name=HeyItsLuigi
+item.ItemHeyItsLuigiIngot.name=HeyItsLuigi Ingot
+item.ItemHeyItsLuigiHelment.name=HeyItsLuigi Helment
+item.ItemHeyItsLuigiChestplate.name=HeyItsLuigi Chestplate
+item.ItemHeyItsLuigiLeggings.name=HeyItsLuigi Leggings
+item.ItemHeyItsLuigiBoots.name=HeyItsLuigi Boots
+item.ItemHeyItsLuigiSword.name=HeyItsLuigi Sword
+item.ItemHeyItsLuigiPickaxe.name=HeyItsLuigi Pickaxe
+item.ItemHeyItsLuigiAxe.name=HeyItsLuigi Axe
+item.ItemHeyItsLuigiShovel.name=HeyItsLuigi Shovel
+item.ItemHeyItsLuigiHoe.name=HeyItsLuigi Shovel
+item.ItemHeyItsLuigiMultiTool.name=HeyItsLuigi Multitool
+tile.BlockHeyItsLuigiOre.name=HeyItsLuigi Ore
+tile.BlockHeyItsLuigi.name=HeyItsLuigi Block
+tile.BlockHeyItsLuigiEgg.name=HeyItsLuigi Egg
+
+	//Antvenom
+entity.EntityAntvenom.name=Antvenom
+item.ItemAntvenomIngot.name=Antvenom Ingot
+item.ItemAntvenomHelment.name=Antvenom Helment
+item.ItemAntvenomChestplate.name=Antvenom Chestplate
+item.ItemAntvenomLeggings.name=Antvenom Leggings
+item.ItemAntvenomBoots.name=Antvenom Boots
+item.ItemAntvenomSword.name=Antvenom Sword
+item.ItemAntvenomPickaxe.name=Antvenom Pickaxe
+item.ItemAntvenomAxe.name=Antvenom Axe
+item.ItemAntvenomShovel.name=Antvenom Shovel
+item.ItemAntvenomHoe.name=Antvenom Shovel
+item.ItemAntvenomMultiTool.name=Antvenom Multitool
+tile.BlockAntvenomOre.name=Antvenom Ore
+tile.BlockAntvenom.name=Antvenom Block
+tile.BlockGlitch.name=Glitched Block
+
+	//Joy_Rider_2284
+entity.EntityJoy_Rider_2284.name=Joy_Rider_2284
+item.ItemJoy_Rider_2284Ingot.name=Joy_Rider_2284 Ingot
+item.ItemJoy_Rider_2284Helment.name=Joy_Rider_2284 Helment
+item.ItemJoy_Rider_2284Chestplate.name=Joy_Rider_2284 Chestplate
+item.ItemJoy_Rider_2284Leggings.name=Joy_Rider_2284 Leggings
+item.ItemJoy_Rider_2284Boots.name=Joy_Rider_2284 Boots
+item.ItemJoy_Rider_2284Sword.name=Joy_Rider_2284 Sword
+item.ItemJoy_Rider_2284Pickaxe.name=Joy_Rider_2284 Pickaxe
+item.ItemJoy_Rider_2284Axe.name=Joy_Rider_2284 Axe
+item.ItemJoy_Rider_2284Shovel.name=Joy_Rider_2284 Shovel
+item.ItemJoy_Rider_2284Hoe.name=Joy_Rider_2284 Shovel
+item.ItemJoy_Rider_2284MultiTool.name=Joy_Rider_2284 Multitool
+tile.BlockJoy_Rider_2284Ore.name=Joy_Rider_2284 Ore
+tile.BlockJoy_Rider_2284.name=Joy_Rider_2284 Block
+
+	//jtrent238
+entity.Entityjtrent238.name=jtrent238
+item.Itemjtrent238Ingot.name=jtrent238 Ingot
+item.Itemjtrent238Helment.name=jtrent238 Helment
+item.Itemjtrent238Chestplate.name=jtrent238 Chestplate
+item.Itemjtrent238Leggings.name=jtrent238 Leggings
+item.Itemjtrent238Boots.name=jtrent238 Boots
+item.Itemjtrent238Sword.name=jtrent238 Sword
+item.Itemjtrent238Pickaxe.name=jtrent238 Pickaxe
+item.Itemjtrent238Axe.name=jtrent238 Axe
+item.Itemjtrent238Shovel.name=jtrent238 Shovel
+item.Itemjtrent238Hoe.name=jtrent238 Shovel
+item.Itemjtrent238MultiTool.name=jtrent238 Multitool
+tile.Blockjtrent238Ore.name=jtrent238 Ore
+tile.Blockjtrent238.name=jtrent238 Block
