@@ -8,6 +8,8 @@ import com.jtrent238.youtubers.blocks.BlockHeyItsLuigiOre;
 import com.jtrent238.youtubers.blocks.BlockJoy_Rider_2284Ore;
 import com.jtrent238.youtubers.blocks.BlockLaurie201Ore;
 import com.jtrent238.youtubers.blocks.BlockSethBlingOre;
+import com.jtrent238.youtubers.blocks.BlockTerraCube;
+import com.jtrent238.youtubers.blocks.Block_MrGregor_Ore;
 import com.jtrent238.youtubers.blocks.BlockblohodOre;
 import com.jtrent238.youtubers.blocks.Blockjtrent238Ore;
 import com.jtrent238.youtubers.blocks.BlockskythekidRSOre;
@@ -18,6 +20,7 @@ import com.jtrent238.youtubers.blocks.materials.BlockHeyItsLuigi;
 import com.jtrent238.youtubers.blocks.materials.BlockJoy_Rider_2284;
 import com.jtrent238.youtubers.blocks.materials.BlockLaurie201;
 import com.jtrent238.youtubers.blocks.materials.BlockSethBling;
+import com.jtrent238.youtubers.blocks.materials.Block_MrGregor_;
 import com.jtrent238.youtubers.blocks.materials.Blockblohod;
 import com.jtrent238.youtubers.blocks.materials.Blockjtrent238;
 import com.jtrent238.youtubers.blocks.materials.BlockskythekidRS;
@@ -44,6 +47,7 @@ public class BlockLoader {
 	//Laurie201 Blocks
 	public static Block BlockLaurie201Ore;
 	public static Block BlockLaurie201;
+	public static Block BlockTerraCube;
 
 	//blohod Blocks
 	public static Block BlockblohodOre;
@@ -71,6 +75,9 @@ public class BlockLoader {
 	public static Block Blockjtrent238Ore;
 	public static Block Blockjtrent238;
 
+	//_MrGregor_ Blocks
+	public static Block Block_MrGregor_Ore;
+	public static Block Block_MrGregor_;
 	
 	/**
 	 * Load Blocks.
@@ -92,6 +99,7 @@ public class BlockLoader {
 		//Laurie201 Blocks
 		BlockLaurie201Ore = new BlockLaurie201Ore(Material.rock).setBlockName("BlockLaurie201Ore").setBlockTextureName("youtubers:BlockLaurie201Ore").setCreativeTab(YouTubers.YouTubers);
 		BlockLaurie201 = new BlockLaurie201(Material.iron).setBlockName("BlockLaurie201").setBlockTextureName("youtubers:BlockLaurie201").setCreativeTab(YouTubers.YouTubers);
+		BlockTerraCube = new BlockTerraCube(Material.iron).setBlockName("BlockTerraCube").setBlockTextureName("youtubers:BlockTerraCube").setCreativeTab(YouTubers.YouTubers);
 		
 		//blohod Blocks
 		BlockblohodOre = new BlockblohodOre(Material.rock).setBlockName("BlockblohodOre").setBlockTextureName("youtubers:BlockblohodOre").setCreativeTab(YouTubers.YouTubers);
@@ -119,6 +127,10 @@ public class BlockLoader {
 		Blockjtrent238Ore = new Blockjtrent238Ore(Material.rock).setBlockName("Blockjtrent238Ore").setBlockTextureName("youtubers:Blockjtrent238Ore").setCreativeTab(YouTubers.YouTubers);
 		Blockjtrent238 = new Blockjtrent238(Material.iron).setBlockName("Blockjtrent238").setBlockTextureName("youtubers:Blockjtrent238").setCreativeTab(YouTubers.YouTubers);
 		
+		//_MrGregor_ Blocks
+		Block_MrGregor_Ore = new Block_MrGregor_Ore(Material.rock).setBlockName("Block_MrGregor_Ore").setBlockTextureName("youtubers:Block_MrGregor_Ore").setCreativeTab(YouTubers.YouTubers);
+		Block_MrGregor_ = new Block_MrGregor_(Material.iron).setBlockName("Block_MrGregor_").setBlockTextureName("youtubers:Block_MrGregor_").setCreativeTab(YouTubers.YouTubers);
+		
 		registerBlocks();
 	}
 
@@ -142,6 +154,7 @@ public class BlockLoader {
 		//Laurie201 Blocks
 		GameRegistry.registerBlock(BlockLaurie201Ore, "BlockLaurie201Ore");
 		GameRegistry.registerBlock(BlockLaurie201, "BlockLaurie201");
+		GameRegistry.registerBlock(BlockTerraCube, "BlockTerraCube");
 		
 		//blohod Blocks
 		GameRegistry.registerBlock(BlockblohodOre, "BlockblohodOre");
@@ -154,7 +167,7 @@ public class BlockLoader {
 		//HeyItsLuigi Blocks
 		GameRegistry.registerBlock(BlockHeyItsLuigiOre, "BlockHeyItsLuigiOre");
 		GameRegistry.registerBlock(BlockHeyItsLuigi, "BlockHeyItsLuigi");
-//		GameRegistry.registerBlock(BlockHeyItsLuigiEgg, "BlockHeyItsLuigiEgg");
+		//GameRegistry.registerBlock(BlockHeyItsLuigiEgg, "BlockHeyItsLuigiEgg");
 		
 		//Antvenom Blocks
 		GameRegistry.registerBlock(BlockAntvenomOre, "BlockAntvenomOre");
@@ -168,6 +181,10 @@ public class BlockLoader {
 		//jtrent238 Blocks
 		GameRegistry.registerBlock(Blockjtrent238Ore, "Blockjtrent238Ore");
 		GameRegistry.registerBlock(Blockjtrent238, "Blockjtrent238");
+		
+		//_MrGregor_ Blocks
+		GameRegistry.registerBlock(Block_MrGregor_Ore, "Block_MrGregor_Ore");
+		GameRegistry.registerBlock(Block_MrGregor_, "Block_MrGregor_");
 		
 	}
 

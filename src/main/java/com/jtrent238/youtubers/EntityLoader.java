@@ -2,11 +2,13 @@ package com.jtrent238.youtubers;
 
 import com.jtrent238.youtubers.entity.player.EntityHER08RINE;
 import com.jtrent238.youtubers.entity.player.Entitycaptainspy6;
+import com.jtrent238.youtubers.entity.youtuber.EntityAntvenom;
 import com.jtrent238.youtubers.entity.youtuber.EntityDanTDM;
 import com.jtrent238.youtubers.entity.youtuber.EntityHeyItsLuigi;
 import com.jtrent238.youtubers.entity.youtuber.EntityJoy_Rider_2284;
 import com.jtrent238.youtubers.entity.youtuber.EntityLaurie201;
 import com.jtrent238.youtubers.entity.youtuber.EntitySethBling;
+import com.jtrent238.youtubers.entity.youtuber.Entity_MrGregor_;
 import com.jtrent238.youtubers.entity.youtuber.Entityblohod;
 import com.jtrent238.youtubers.entity.youtuber.EntityskythekidRS;
 import com.jtrent238.youtubers.entity.youtuber.EntityxJSQ;
@@ -49,9 +51,21 @@ public class EntityLoader {
 	    EntityRegistry.registerGlobalEntityID(EntityHeyItsLuigi.class, "EntityHeyItsLuigi",EntityRegistry.findGlobalUniqueEntityId(), 0x007728, 0x00FF56);
 	    EntityRegistry.addSpawn(EntityHeyItsLuigi.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
 	    
+	    //Antvenom Registry
+	    EntityRegistry.registerGlobalEntityID(EntityAntvenom.class, "EntityAntvenom",EntityRegistry.findGlobalUniqueEntityId(), 0x4f1900, 0x930000);
+	    EntityRegistry.addSpawn(EntityAntvenom.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+	    
 	    //Joy_Rider_2284 Registry
 	    EntityRegistry.registerGlobalEntityID(EntityJoy_Rider_2284.class, "EntityJoy_Rider_2284",EntityRegistry.findGlobalUniqueEntityId(), 0x000000, 0xff7b00);
 	    EntityRegistry.addSpawn(EntityJoy_Rider_2284.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+	    
+	    //jtrent238 Registry
+	    //EntityRegistry.registerGlobalEntityID(Entityjtrent238.class, "Entityjtrent238",EntityRegistry.findGlobalUniqueEntityId(), 0x000000, 0xff7b00);
+	    //EntityRegistry.addSpawn(Entityjtrent238.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+	    
+	    //_MrGregor_ Registry
+	    EntityRegistry.registerGlobalEntityID(Entity_MrGregor_.class, "Entity_MrGregor_",EntityRegistry.findGlobalUniqueEntityId(), 0xff9000, 0x000000);
+	    EntityRegistry.addSpawn(Entity_MrGregor_.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
 	    
 	}
 
@@ -60,7 +74,8 @@ public class EntityLoader {
 		//captainspy6 Registry
 	    EntityRegistry.registerGlobalEntityID(Entitycaptainspy6.class, "Entitycaptainspy6",EntityRegistry.findGlobalUniqueEntityId(), 0x515dff, 0xff9400);
 	    EntityRegistry.addSpawn(Entitycaptainspy6.class, 2, 1, 3, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
-		//HER08RINE Registry
+		
+	    //HER08RINE Registry
 	    EntityRegistry.registerGlobalEntityID(EntityHER08RINE.class, "EntityHER08RINE",EntityRegistry.findGlobalUniqueEntityId(), 0x00ff4c, 0xffffff);
 	    EntityRegistry.addSpawn(EntityHER08RINE.class, 2, 1, 3, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
 	    

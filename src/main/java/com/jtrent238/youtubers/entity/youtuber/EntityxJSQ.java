@@ -2,6 +2,8 @@ package com.jtrent238.youtubers.entity.youtuber;
 
 import java.util.Random;
 
+import com.jtrent238.youtubers.ItemLoader;
+
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
@@ -119,7 +121,7 @@ protected void addRandomArmor(){
 	     */
 	    protected void dropFewItems(boolean var1, int var2)
 	    {
-	    	//this.entityDropItem(new ItemStack(BlockLoader.blockFlowerLove, 1), 4F);
+	    	this.entityDropItem(new ItemStack(ItemLoader.ItemxJSQBeatingStick, 1), 4F);
 	    }
 
 	    /**

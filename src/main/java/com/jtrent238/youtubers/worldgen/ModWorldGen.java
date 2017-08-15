@@ -36,6 +36,7 @@ public class ModWorldGen implements IWorldGenerator {
 		    this.runGenerator(this.gen_Antvenom_ore, world, random, chunkX, chunkZ, 20, 0, 64);
 		    this.runGenerator(this.gen_Joy_Rider_2284_ore, world, random, chunkX, chunkZ, 20, 0, 64);
 		    this.runGenerator(this.gen_jtrent238_ore, world, random, chunkX, chunkZ, 20, 0, 64);
+		    this.runGenerator(this.gen__MrGregor__ore, world, random, chunkX, chunkZ, 20, 0, 64);
 
 	        break;
 	    case -1: //Nether
@@ -57,6 +58,7 @@ public class ModWorldGen implements IWorldGenerator {
 	private WorldGenerator gen_Antvenom_ore;
 	private WorldGenerator gen_Joy_Rider_2284_ore;
 	private WorldGenerator gen_jtrent238_ore;
+	private WorldGenerator gen__MrGregor__ore;
 
 	
 	public ModWorldGen() {
@@ -70,6 +72,7 @@ public class ModWorldGen implements IWorldGenerator {
 		this.gen_Antvenom_ore = new WorldGenMinable(BlockLoader.BlockAntvenomOre, 8);
 		this.gen_Joy_Rider_2284_ore = new WorldGenMinable(BlockLoader.BlockJoy_Rider_2284Ore, 8);
 		this.gen_jtrent238_ore = new WorldGenMinable(BlockLoader.Blockjtrent238Ore, 8);
+		this.gen__MrGregor__ore = new WorldGenMinable(BlockLoader.Block_MrGregor_Ore, 8);
 
 	}
 	

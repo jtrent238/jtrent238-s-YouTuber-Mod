@@ -141,6 +141,18 @@ public class Recipes {
 		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Itemjtrent238Leggings), "III", "IBI", "IBI", 'I', ItemLoader.Itemjtrent238Ingot);
 		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Itemjtrent238Boots), "IBI", "IBI", 'I', ItemLoader.Itemjtrent238Ingot);
 
+		//_MrGregor_ Crafting Recipes
+		GameRegistry.addShapedRecipe(new ItemStack(BlockLoader.Block_MrGregor_), "XXX", "XXX", "XXX", 'X', ItemLoader.Item_MrGregor_Ingot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Item_MrGregor_Sword), "I", "I", "S", 'I', ItemLoader.Item_MrGregor_Ingot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Item_MrGregor_Pickaxe), "III", "BSB", "BSB", 'I', ItemLoader.Item_MrGregor_Ingot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Item_MrGregor_Axe), "IIB", "ISB", "BSB", 'I', ItemLoader.Item_MrGregor_Ingot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Item_MrGregor_Shovel), "BIB", "BSB", "BSB", 'I', ItemLoader.Item_MrGregor_Ingot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Item_MrGregor_Hoe), "IIB", "BSB", "BSB", 'I', ItemLoader.Item_MrGregor_Ingot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Item_MrGregor_Helment), "III", "IBI", 'I', ItemLoader.Item_MrGregor_Ingot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Item_MrGregor_Chestplate), "IBI", "III", "III", 'I', ItemLoader.Item_MrGregor_Ingot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Item_MrGregor_Leggings), "III", "IBI", "IBI", 'I', ItemLoader.Item_MrGregor_Ingot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Item_MrGregor_Boots), "IBI", "IBI", 'I', ItemLoader.Item_MrGregor_Ingot);
+
 	}
 	
 	/**
@@ -163,6 +175,7 @@ public class Recipes {
 		GameRegistry.addSmelting(BlockLoader.BlockAntvenomOre, new ItemStack (ItemLoader.ItemAntvenomIngot, 1), 2F );
 		GameRegistry.addSmelting(BlockLoader.BlockJoy_Rider_2284Ore, new ItemStack (ItemLoader.ItemJoy_Rider_2284Ingot, 1), 2F );
 		GameRegistry.addSmelting(BlockLoader.Blockjtrent238Ore, new ItemStack (ItemLoader.Itemjtrent238Ingot, 1), 2F );
+		GameRegistry.addSmelting(BlockLoader.Block_MrGregor_Ore, new ItemStack (ItemLoader.Item_MrGregor_Ingot, 1), 2F );
 		
 		
 		}

@@ -6,9 +6,9 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.world.IBlockAccess;
 
-public class Blockjtrent238 extends Block{
+public class Block_MrGregor_ extends Block{
 
-	public Blockjtrent238(Material p_i45394_1_) {
+	public Block_MrGregor_(Material p_i45394_1_) {
 		super(p_i45394_1_);
 	}
 
@@ -26,6 +26,6 @@ public class Blockjtrent238 extends Block{
      */
     public boolean isBeaconBase(IBlockAccess worldObj, int x, int y, int z, int beaconX, int beaconY, int beaconZ)
     {
-        return this == BlockLoader.Blockjtrent238;
+        return this == BlockLoader.Block_MrGregor_;
     }
 }

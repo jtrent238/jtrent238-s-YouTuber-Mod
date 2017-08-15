@@ -34,7 +34,7 @@ import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.common.ChestGenHooks;
 
 
-@Mod(modid=YouTubers.MODID, name=YouTubers.MODNAME, version=(YouTubers.MODVERSION)/*, dependencies="required-after:jtrent238core"*/)
+@Mod(modid=YouTubers.MODID, name=YouTubers.MODNAME, version=(YouTubers.MODVERSION)/*, dependencies="required-after:jtrent238core@[" + YouTubers.COREVERSION + "]"*/)
 //@MeddleMod(id=Main.MODID, name=Main.MODNAME, version=(Main.MODVERSION), author=Main.MODAUTHOR)
 public class YouTubers 
 {
@@ -48,7 +48,7 @@ public class YouTubers
 
 	@Instance(MODID)
     public static YouTubers instance;
-	public static final String MODVERSION = "1.0.0.0";
+	public static final String MODVERSION = "1.0.0.1";
 	public final static String COREVERSION = "1.0.0.3";
 	public static final String MODNAME = "jtrent238's YouTuber Mod";
 	public static final String MODAUTHOR = "jtrent238";
@@ -98,7 +98,7 @@ public void init(FMLInitializationEvent event)
 	Recipes.registerRecpies();
 	EntityLoader.LoadYouTubers();
 	EntityLoader.LoadPlayers();
-	//OreDict.addores();
+	OreDict.addores();
 	//Achievements.loadAchievements();
 	//Stats.RegisterStats();
 	//ChestGen.registerItems();

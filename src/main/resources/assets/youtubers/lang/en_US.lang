@@ -1,8 +1,5 @@
 //jtrent238's YouTuber Mod Language File
 
-
-entity.Entityblohod.name=blohod
-
 	//Players
 entity.Entitycaptainspy6.name=captainspy6
 entity.EntityHER08RINE.name=HER08RINE
@@ -24,6 +21,7 @@ item.ItemxJSQShovel.name=xJSQ Shovel
 item.ItemxJSQHoe.name=xJSQ Shovel
 item.ItemxJSQMultiTool.name=xJSQ Multitool
 item.ItemxJSQBeatingStick.name=xJSQ's Beating Stick
+item.ItemFireHoe.name=Firey Hoe
 tile.BlockxJSQOre.name=xJSQ Ore
 tile.BlockxJSQ.name=xJSQ Block
 
@@ -75,6 +73,7 @@ item.ItemLaurie201Hoe.name=Laurie201 Shovel
 item.ItemLaurie201MultiTool.name=Laurie201 Multitool
 tile.BlockLaurie201Ore.name=Laurie201 Ore
 tile.BlockLaurie201.name=Laurie201 Block
+tile.BlockTerraCube.name=Terra Cube
 
 	//blohod
 entity.Entityblohod.name=blohod
@@ -173,3 +172,19 @@ item.Itemjtrent238Hoe.name=jtrent238 Shovel
 item.Itemjtrent238MultiTool.name=jtrent238 Multitool
 tile.Blockjtrent238Ore.name=jtrent238 Ore
 tile.Blockjtrent238.name=jtrent238 Block
+
+	//_MrGregor_
+entity.Entity_MrGregor_.name=_MrGregor_
+item.Item_MrGregor_Ingot.name=_MrGregor_ Ingot
+item.Item_MrGregor_Helment.name=_MrGregor_ Helment
+item.Item_MrGregor_Chestplate.name=_MrGregor_ Chestplate
+item.Item_MrGregor_Leggings.name=_MrGregor_ Leggings
+item.Item_MrGregor_Boots.name=_MrGregor_ Boots
+item.Item_MrGregor_Sword.name=_MrGregor_ Sword
+item.Item_MrGregor_Pickaxe.name=_MrGregor_ Pickaxe
+item.Item_MrGregor_Axe.name=_MrGregor_ Axe
+item.Item_MrGregor_Shovel.name=_MrGregor_ Shovel
+item.Item_MrGregor_Hoe.name=_MrGregor_ Shovel
+item.Item_MrGregor_MultiTool.name=_MrGregor_ Multitool
+tile.Block_MrGregor_Ore.name=_MrGregor_ Ore
+tile.Block_MrGregor_.name=_MrGregor_ Block

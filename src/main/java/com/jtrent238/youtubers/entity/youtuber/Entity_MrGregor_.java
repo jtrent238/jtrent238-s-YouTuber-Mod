@@ -1,4 +1,4 @@
-package com.jtrent238.youtubers.entity.player;
+package com.jtrent238.youtubers.entity.youtuber;
 
 import java.util.Random;
 
@@ -38,17 +38,17 @@ import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraftforge.common.DungeonHooks;
 
-public class Entitycaptainspy6 extends EntityGolem implements IBossDisplayData
+public class Entity_MrGregor_ extends EntityGolem implements IBossDisplayData
 	{
 		World world = null;
 		private int attackTimer;
 		private DamageSource damageSource;
 		private EntityPlayer entityAttackedBy;
-	    public Entitycaptainspy6(World var1)
+	    public Entity_MrGregor_(World var1)
 	    {
 	        super(var1);
 	        world = var1;
-	        experienceValue = 10;
+	        experienceValue = 4;
 	        this.isImmuneToFire = true;
 	        this.tasks.addTask(1, new EntityAIAttackOnCollide(this, 1.0D, true));
 	        this.tasks.addTask(2, new EntityAIMoveTowardsTarget(this, 0.9D, 32.0F));
@@ -61,7 +61,7 @@ public class Entitycaptainspy6 extends EntityGolem implements IBossDisplayData
 	        this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, EntityLiving.class, 0, false, true, IMob.mobSelector));
 	       
 	        this.hasCustomNameTag();
-	        this.setCustomNameTag("captainspy6");
+	        this.setCustomNameTag("_MrGregor_");
 	        addRandomArmor();
 	        //DungeonHooks.addDungeonMob("xJSQ", 180);
 	    }
@@ -125,30 +125,30 @@ protected void addRandomArmor(){
 	    /**
 	     * Returns the sound this mob makes while it's alive.
 	     */
-	    	
+	    	/*
 	    protected String getLivingSound()
 	    {
-	        return "youtubers:captainspy6_living";
+	        return "";
 	    }
-	     	
+	     	*/
 	    /**
 	     * Returns the sound this mob makes when it is hurt.
 	     */
-	    	
+	    	/*
 	    protected String getHurtSound()
 	    {
-	        return "youtubers:captainspy6_hurt";
+	        return "";
 	    }
-			
+			*/
 	    /**
 	     * Returns the sound this mob makes on death.
 	     */
-	    	
+	    	/*
 	    protected String getDeathSound()
 	    {
-	        return "youtubers:captainspy6_death";
+	        return "";
 	    }
-			
+			*/
 	    public void onStruckByLightning(EntityLightningBolt entityLightningBolt){
 			int i = (int)this.posX;
 			int j = (int)this.posY;
@@ -183,7 +183,7 @@ protected void addRandomArmor(){
 		}
 
 		public String getEntityName(){
-			return "captainspy6";
+			return "_MrGregor_";
 		}
 
 	

@@ -1,0 +1,10 @@
+jtrent238's YouTubers Changelog
+
+1.0.0.1
+- Added Antvenom's Entity
+- Added _MrGregor_'s Entity and Items
+- Add Firey Hoe
+- Added Ore Dictonary Support
+- Added xJSQ's Beating Stick to xJSQ's Drops
+- Fixed Joy_Rider_2284's Ingot and Helment not having texture
+- Fixed jtrent238's Block not powering Beacon

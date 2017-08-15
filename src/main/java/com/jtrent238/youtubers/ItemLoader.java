@@ -8,6 +8,7 @@ import com.jtrent238.youtubers.items.armor.HeyItsLuigi_Armor;
 import com.jtrent238.youtubers.items.armor.Joy_Rider_2284_Armor;
 import com.jtrent238.youtubers.items.armor.Laurie201_Armor;
 import com.jtrent238.youtubers.items.armor.SethBling_Armor;
+import com.jtrent238.youtubers.items.armor._MrGregor__Armor;
 import com.jtrent238.youtubers.items.armor.blohod_Armor;
 import com.jtrent238.youtubers.items.armor.jtrent238_Armor;
 import com.jtrent238.youtubers.items.armor.skythekidRS_Armor;
@@ -18,6 +19,7 @@ import com.jtrent238.youtubers.items.materials.ItemHeyItsLuigiIngot;
 import com.jtrent238.youtubers.items.materials.ItemJoy_Rider_2284Ingot;
 import com.jtrent238.youtubers.items.materials.ItemLaurie201Ingot;
 import com.jtrent238.youtubers.items.materials.ItemSethBlingIngot;
+import com.jtrent238.youtubers.items.materials.Item_MrGregor_Ingot;
 import com.jtrent238.youtubers.items.materials.ItemblohodIngot;
 import com.jtrent238.youtubers.items.materials.Itemjtrent238Ingot;
 import com.jtrent238.youtubers.items.materials.ItemskythekidRSIngot;
@@ -32,6 +34,7 @@ import com.jtrent238.youtubers.items.tools.ItemDanTDMHoe;
 import com.jtrent238.youtubers.items.tools.ItemDanTDMMultiTool;
 import com.jtrent238.youtubers.items.tools.ItemDanTDMPickaxe;
 import com.jtrent238.youtubers.items.tools.ItemDanTDMShovel;
+import com.jtrent238.youtubers.items.tools.ItemFireHoe;
 import com.jtrent238.youtubers.items.tools.ItemHeyItsLuigiAxe;
 import com.jtrent238.youtubers.items.tools.ItemHeyItsLuigiHoe;
 import com.jtrent238.youtubers.items.tools.ItemHeyItsLuigiMultiTool;
@@ -52,6 +55,11 @@ import com.jtrent238.youtubers.items.tools.ItemSethBlingHoe;
 import com.jtrent238.youtubers.items.tools.ItemSethBlingMultiTool;
 import com.jtrent238.youtubers.items.tools.ItemSethBlingPickaxe;
 import com.jtrent238.youtubers.items.tools.ItemSethBlingShovel;
+import com.jtrent238.youtubers.items.tools.Item_MrGregor_Axe;
+import com.jtrent238.youtubers.items.tools.Item_MrGregor_Hoe;
+import com.jtrent238.youtubers.items.tools.Item_MrGregor_MultiTool;
+import com.jtrent238.youtubers.items.tools.Item_MrGregor_Pickaxe;
+import com.jtrent238.youtubers.items.tools.Item_MrGregor_Shovel;
 import com.jtrent238.youtubers.items.tools.ItemblohodAxe;
 import com.jtrent238.youtubers.items.tools.ItemblohodHoe;
 import com.jtrent238.youtubers.items.tools.ItemblohodMultiTool;
@@ -78,6 +86,7 @@ import com.jtrent238.youtubers.items.tools.weapons.ItemHeyItsLuigiSword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemJoy_Rider_2284Sword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemLaurie201Sword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemSethBlingSword;
+import com.jtrent238.youtubers.items.tools.weapons.Item_MrGregor_Sword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemblohodSword;
 import com.jtrent238.youtubers.items.tools.weapons.Itemjtrent238Sword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemskythekidRSSword;
@@ -106,6 +115,7 @@ public class ItemLoader {
 	public static Item ItemxJSQHoe;
 	public static Item ItemxJSQMultiTool;
 	public static Item ItemxJSQBeatingStick;
+	public static Item ItemFireHoe;
 	
 	//DanTDM Stuff
 	public static Item ItemDanTDMIngot;
@@ -225,6 +235,19 @@ public class ItemLoader {
 	public static Item Itemjtrent238Hoe;
 	public static Item Itemjtrent238MultiTool;
 	
+	//_MrGregor_ Stuff
+	public static Item Item_MrGregor_Ingot;
+	public static Item Item_MrGregor_Helment;
+	public static Item Item_MrGregor_Chestplate;
+	public static Item Item_MrGregor_Leggings;
+	public static Item Item_MrGregor_Boots;
+	public static Item Item_MrGregor_Sword;
+	public static Item Item_MrGregor_Pickaxe;
+	public static Item Item_MrGregor_Axe;
+	public static Item Item_MrGregor_Shovel;
+	public static Item Item_MrGregor_Hoe;
+	public static Item Item_MrGregor_MultiTool;
+	
 	
 	private static int JSQ = 10;			//xJSQ Multiplier
 	private static int TDM = 10;			//DanTDM Multiplier
@@ -235,7 +258,8 @@ public class ItemLoader {
 	private static int HEYIL = 10;			//HeyItsLuigi Multiplier
 	private static int ANTV = 10;			//Antvenom Multiplier
 	private static int JOYR = 10;			//Joy_Rider_2284 Multiplier
-	private static int JTRENT238 = 10;			//jtrent238 Multiplier
+	private static int JTRENT238 = 10;		//jtrent238 Multiplier
+	private static int MRGREG = 10;			//_MrGregor_ Multiplier
 	
 	//xJSQ Tool & Armor Material
 	public static ArmorMaterial xJSQ_ARMOR = EnumHelper.addArmorMaterial("xJSQ_ARMOR", 16, new int[] {3 * JSQ, 8 * JSQ, 6 * JSQ, 3 * JSQ}, 30 * JSQ);
@@ -277,6 +301,10 @@ public class ItemLoader {
 	public static ArmorMaterial jtrent238_ARMOR = EnumHelper.addArmorMaterial("jtrent238_ARMOR", 16, new int[] {3 * JTRENT238, 8 * JTRENT238, 6 * JTRENT238, 3 * JTRENT238}, 30 * JTRENT238);
 	public static ToolMaterial jtrent238_TOOL = EnumHelper.addToolMaterial("jtrent238_TOOL", 3 * JTRENT238, 1561 * JTRENT238, 8.0F * JTRENT238, 3.0F * JTRENT238, 10 * JTRENT238);
 	
+	//_MrGregor_ Tool & Armor Material
+	public static ArmorMaterial _MrGregor__ARMOR = EnumHelper.addArmorMaterial("_MrGregor__ARMOR", 16, new int[] {3 * MRGREG, 8 * MRGREG, 6 * MRGREG, 3 * MRGREG}, 30 * MRGREG);
+	public static ToolMaterial _MrGregor__TOOL = EnumHelper.addToolMaterial("_MrGregor__TOOL", 3 * MRGREG, 1561 * MRGREG, 8.0F * MRGREG, 3.0F * MRGREG, 10 * MRGREG);
+	
 	/**
 	 * Load Items.
 	 */
@@ -298,6 +326,7 @@ public class ItemLoader {
 		ItemxJSQHoe = new ItemxJSQHoe(xJSQ_TOOL).setUnlocalizedName("ItemxJSQHoe").setTextureName("youtubers:ItemxJSQHoe").setCreativeTab(YouTubers.YouTubers);
 		ItemxJSQMultiTool = new ItemxJSQMultiTool(xJSQ_TOOL).setUnlocalizedName("ItemxJSQMultiTool").setTextureName("youtubers:ItemxJSQMultiTool").setCreativeTab(YouTubers.YouTubers);
 		ItemxJSQBeatingStick  = new ItemxJSQBeatingStick(xJSQ_TOOL).setUnlocalizedName("ItemxJSQBeatingStick").setTextureName("youtubers:ItemxJSQBeatingStick").setCreativeTab(YouTubers.YouTubers);
+		ItemFireHoe  = new ItemFireHoe(xJSQ_TOOL).setUnlocalizedName("ItemFireHoe").setTextureName("youtubers:ItemFireHoe").setCreativeTab(YouTubers.YouTubers);
 		
 		//DanTDM Stuff
 		ItemDanTDMIngot = new ItemDanTDMIngot().setUnlocalizedName("ItemDanTDMIngot").setTextureName("youtubers:ItemDanTDMIngot").setCreativeTab(YouTubers.YouTubers);
@@ -417,6 +446,19 @@ public class ItemLoader {
 		Itemjtrent238Hoe = new Itemjtrent238Hoe(jtrent238_TOOL).setUnlocalizedName("Itemjtrent238Hoe").setTextureName("youtubers:Itemjtrent238Hoe").setCreativeTab(YouTubers.YouTubers);
 		Itemjtrent238MultiTool = new Itemjtrent238MultiTool(jtrent238_TOOL).setUnlocalizedName("Itemjtrent238MultiTool").setTextureName("youtubers:Itemjtrent238MultiTool").setCreativeTab(YouTubers.YouTubers);
 	
+		//_MrGregor_ Stuff
+		Item_MrGregor_Ingot = new Item_MrGregor_Ingot().setUnlocalizedName("Item_MrGregor_Ingot").setTextureName("youtubers:Item_MrGregor_Ingot").setCreativeTab(YouTubers.YouTubers);
+		Item_MrGregor_Helment = new _MrGregor__Armor(_MrGregor__ARMOR, 0, 0).setUnlocalizedName("Item_MrGregor_Helment").setTextureName("youtubers:Item_MrGregor_Helment").setCreativeTab(YouTubers.YouTubers);
+		Item_MrGregor_Chestplate = new _MrGregor__Armor(_MrGregor__ARMOR, 1, 1).setUnlocalizedName("Item_MrGregor_Chestplate").setTextureName("youtubers:Item_MrGregor_Chestplate").setCreativeTab(YouTubers.YouTubers);
+		Item_MrGregor_Leggings = new _MrGregor__Armor(_MrGregor__ARMOR, 2, 2).setUnlocalizedName("Item_MrGregor_Leggings").setTextureName("youtubers:Item_MrGregor_Leggings").setCreativeTab(YouTubers.YouTubers);
+		Item_MrGregor_Boots = new _MrGregor__Armor(_MrGregor__ARMOR, 3, 3).setUnlocalizedName("Item_MrGregor_Boots").setTextureName("youtubers:Item_MrGregor_Boots").setCreativeTab(YouTubers.YouTubers);
+		Item_MrGregor_Sword = new Item_MrGregor_Sword(_MrGregor__TOOL).setUnlocalizedName("Item_MrGregor_Sword").setTextureName("youtubers:Item_MrGregor_Sword").setCreativeTab(YouTubers.YouTubers);
+		Item_MrGregor_Pickaxe = new Item_MrGregor_Pickaxe(_MrGregor__TOOL).setUnlocalizedName("Item_MrGregor_Pickaxe").setTextureName("youtubers:Item_MrGregor_Pickaxe").setCreativeTab(YouTubers.YouTubers);
+		Item_MrGregor_Axe = new Item_MrGregor_Axe(_MrGregor__TOOL).setUnlocalizedName("Item_MrGregor_Axe").setTextureName("youtubers:Item_MrGregor_Axe").setCreativeTab(YouTubers.YouTubers);
+		Item_MrGregor_Shovel = new Item_MrGregor_Shovel(_MrGregor__TOOL).setUnlocalizedName("Item_MrGregor_Shovel").setTextureName("youtubers:Item_MrGregor_Shovel").setCreativeTab(YouTubers.YouTubers);
+		Item_MrGregor_Hoe = new Item_MrGregor_Hoe(_MrGregor__TOOL).setUnlocalizedName("Item_MrGregor_Hoe").setTextureName("youtubers:Item_MrGregor_Hoe").setCreativeTab(YouTubers.YouTubers);
+		Item_MrGregor_MultiTool = new Item_MrGregor_MultiTool(_MrGregor__TOOL).setUnlocalizedName("Item_MrGregor_MultiTool").setTextureName("youtubers:Item_MrGregor_MultiTool").setCreativeTab(YouTubers.YouTubers);
+	
 		registerItems();
 		
 	}
@@ -441,6 +483,7 @@ public class ItemLoader {
 		GameRegistry.registerItem(ItemxJSQHoe, ItemxJSQHoe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(ItemxJSQMultiTool, ItemxJSQMultiTool.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(ItemxJSQBeatingStick, ItemxJSQBeatingStick.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemFireHoe, ItemFireHoe.getUnlocalizedName().substring(5));
 		
 		//DanTDM Stuff
 		GameRegistry.registerItem(ItemDanTDMIngot, ItemDanTDMIngot.getUnlocalizedName().substring(5));
@@ -559,6 +602,19 @@ public class ItemLoader {
 		GameRegistry.registerItem(Itemjtrent238Shovel, Itemjtrent238Shovel.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(Itemjtrent238Hoe, Itemjtrent238Hoe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(Itemjtrent238MultiTool, Itemjtrent238MultiTool.getUnlocalizedName().substring(5));
+
+		//_MrGregor_ Stuff
+		GameRegistry.registerItem(Item_MrGregor_Ingot, Item_MrGregor_Ingot.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(Item_MrGregor_Helment, Item_MrGregor_Helment.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(Item_MrGregor_Chestplate, Item_MrGregor_Chestplate.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(Item_MrGregor_Leggings, Item_MrGregor_Leggings.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(Item_MrGregor_Boots, Item_MrGregor_Boots.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(Item_MrGregor_Sword, Item_MrGregor_Sword.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(Item_MrGregor_Pickaxe, Item_MrGregor_Pickaxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(Item_MrGregor_Axe, Item_MrGregor_Axe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(Item_MrGregor_Shovel, Item_MrGregor_Shovel.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(Item_MrGregor_Hoe, Item_MrGregor_Hoe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(Item_MrGregor_MultiTool, Item_MrGregor_MultiTool.getUnlocalizedName().substring(5));
 
 	}
 }
