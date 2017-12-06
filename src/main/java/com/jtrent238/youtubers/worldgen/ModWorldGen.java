@@ -26,17 +26,18 @@ public class ModWorldGen implements IWorldGenerator {
 	    switch (world.provider.dimensionId) {
 	    
 	    case 0: //Overworld
-	    	this.runGenerator(this.gen_xJSQ_ore, world, random, chunkX, chunkZ, 20, 0, 64);
-	    	this.runGenerator(this.gen_DanTDM_ore, world, random, chunkX, chunkZ, 20, 0, 64);
-		    this.runGenerator(this.gen_SethBling_ore, world, random, chunkX, chunkZ, 20, 0, 64);
-		    this.runGenerator(this.gen_Laurie201_ore, world, random, chunkX, chunkZ, 20, 0, 64);
-		    this.runGenerator(this.gen_blohod_ore, world, random, chunkX, chunkZ, 20, 0, 64);
-		    this.runGenerator(this.gen_skythekidRS_ore, world, random, chunkX, chunkZ, 20, 0, 64);
-		    this.runGenerator(this.gen_HeyItsLuigi_ore, world, random, chunkX, chunkZ, 20, 0, 64);
-		    this.runGenerator(this.gen_Antvenom_ore, world, random, chunkX, chunkZ, 20, 0, 64);
-		    this.runGenerator(this.gen_Joy_Rider_2284_ore, world, random, chunkX, chunkZ, 20, 0, 64);
-		    this.runGenerator(this.gen_jtrent238_ore, world, random, chunkX, chunkZ, 20, 0, 64);
-		    this.runGenerator(this.gen__MrGregor__ore, world, random, chunkX, chunkZ, 20, 0, 64);
+	    	this.runGenerator(this.gen_xJSQ_ore, world, random, chunkX, chunkZ, 5, 0, 64);
+	    	this.runGenerator(this.gen_DanTDM_ore, world, random, chunkX, chunkZ, 5, 0, 64);
+		    this.runGenerator(this.gen_SethBling_ore, world, random, chunkX, chunkZ, 5, 0, 64);
+		    this.runGenerator(this.gen_Laurie201_ore, world, random, chunkX, chunkZ, 5, 0, 64);
+		    this.runGenerator(this.gen_blohod_ore, world, random, chunkX, chunkZ, 5, 0, 64);
+		    this.runGenerator(this.gen_skythekidRS_ore, world, random, chunkX, chunkZ, 5, 0, 64);
+		    this.runGenerator(this.gen_HeyItsLuigi_ore, world, random, chunkX, chunkZ, 5, 0, 64);
+		    this.runGenerator(this.gen_Antvenom_ore, world, random, chunkX, chunkZ, 5, 0, 64);
+		    this.runGenerator(this.gen_Joy_Rider_2284_ore, world, random, chunkX, chunkZ, 5, 0, 64);
+		    this.runGenerator(this.gen_jtrent238_ore, world, random, chunkX, chunkZ, 5, 0, 64);
+		    this.runGenerator(this.gen__MrGregor__ore, world, random, chunkX, chunkZ, 5, 0, 64);
+		    this.runGenerator(this.gen_SSundee_ore, world, random, chunkX, chunkZ, 5, 0, 64);
 
 	        break;
 	    case -1: //Nether
@@ -59,6 +60,7 @@ public class ModWorldGen implements IWorldGenerator {
 	private WorldGenerator gen_Joy_Rider_2284_ore;
 	private WorldGenerator gen_jtrent238_ore;
 	private WorldGenerator gen__MrGregor__ore;
+	private WorldGenerator gen_SSundee_ore;
 
 	
 	public ModWorldGen() {
@@ -73,6 +75,7 @@ public class ModWorldGen implements IWorldGenerator {
 		this.gen_Joy_Rider_2284_ore = new WorldGenMinable(BlockLoader.BlockJoy_Rider_2284Ore, 8);
 		this.gen_jtrent238_ore = new WorldGenMinable(BlockLoader.Blockjtrent238Ore, 8);
 		this.gen__MrGregor__ore = new WorldGenMinable(BlockLoader.Block_MrGregor_Ore, 8);
+		this.gen_SSundee_ore = new WorldGenMinable(BlockLoader.BlockSSundeeOre, 8);
 
 	}
 	

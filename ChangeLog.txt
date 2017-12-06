@@ -1,9 +1,28 @@
 jtrent238's YouTubers Changelog
 
+1.0.1.2
+- Added Silver YouTube Play Button
+- Added Gold YouTube Play Button
+- Added Diamond YouTube Play Button
+- Added Ruby YouTube Play Button
+- Added Magna_Invictus
+- Added EckoSoldier
+- Added AlexIsCool [Player]
+- Added megablasterT [Player]
+- Added CowMan [Player]
+- Added Far [Player]
+- Fixed Block Hardness of ores and material blocks
+- Reduced spawn rate of ores
+
+1.0.0.2
+- Added SSundee
+- Changed so Antvenom now drops 1-6 Glitched blocks
+- Changed so Laurie201 now drops 1-32 enchanted golden apples
+
 1.0.0.1
 - Added Antvenom's Entity
 - Added _MrGregor_'s Entity and Items
-- Add Firey Hoe
+- Added Firey Hoe
 - Added Ore Dictonary Support
 - Added xJSQ's Beating Stick to xJSQ's Drops
 - Fixed Joy_Rider_2284's Ingot and Helment not having texture

@@ -8,7 +8,7 @@ import net.minecraft.world.IBlockAccess;
 
 public class YouTuberBlock extends Block{
 
-	protected YouTuberBlock(Material p_i45394_1_) {
+	public YouTuberBlock(Material p_i45394_1_) {
 		super(p_i45394_1_);
 	}
 

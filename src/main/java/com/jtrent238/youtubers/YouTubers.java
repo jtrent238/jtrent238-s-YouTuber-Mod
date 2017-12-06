@@ -48,7 +48,7 @@ public class YouTubers
 
 	@Instance(MODID)
     public static YouTubers instance;
-	public static final String MODVERSION = "1.0.0.1";
+	public static final String MODVERSION = "1.0.1.2";
 	public final static String COREVERSION = "1.0.0.3";
 	public static final String MODNAME = "jtrent238's YouTuber Mod";
 	public static final String MODAUTHOR = "jtrent238";

@@ -1,12 +1,21 @@
 package com.jtrent238.youtubers;
 
 import com.jtrent238.youtubers.items.ItemDiamondMinecart;
+import com.jtrent238.youtubers.items.ItemDiamondPlayButton;
+import com.jtrent238.youtubers.items.ItemGoldPlayButton;
+import com.jtrent238.youtubers.items.ItemRandomBlockStructure_Placer;
+import com.jtrent238.youtubers.items.ItemRubyPlayButton;
+import com.jtrent238.youtubers.items.ItemSilverPlayButton;
 import com.jtrent238.youtubers.items.ItemSpawnEgg;
 import com.jtrent238.youtubers.items.armor.Antvenom_Armor;
+import com.jtrent238.youtubers.items.armor.BajanCanadian_Armor;
 import com.jtrent238.youtubers.items.armor.DanTDM_Armor;
+import com.jtrent238.youtubers.items.armor.EckoSoldier_Armor;
 import com.jtrent238.youtubers.items.armor.HeyItsLuigi_Armor;
 import com.jtrent238.youtubers.items.armor.Joy_Rider_2284_Armor;
 import com.jtrent238.youtubers.items.armor.Laurie201_Armor;
+import com.jtrent238.youtubers.items.armor.Magna_Invictus_Armor;
+import com.jtrent238.youtubers.items.armor.SSundee_Armor;
 import com.jtrent238.youtubers.items.armor.SethBling_Armor;
 import com.jtrent238.youtubers.items.armor._MrGregor__Armor;
 import com.jtrent238.youtubers.items.armor.blohod_Armor;
@@ -14,10 +23,14 @@ import com.jtrent238.youtubers.items.armor.jtrent238_Armor;
 import com.jtrent238.youtubers.items.armor.skythekidRS_Armor;
 import com.jtrent238.youtubers.items.armor.xJSQ_Armor;
 import com.jtrent238.youtubers.items.materials.ItemAntvenomIngot;
+import com.jtrent238.youtubers.items.materials.ItemBajanCanadianIngot;
 import com.jtrent238.youtubers.items.materials.ItemDanTDMIngot;
+import com.jtrent238.youtubers.items.materials.ItemEckoSoldierIngot;
 import com.jtrent238.youtubers.items.materials.ItemHeyItsLuigiIngot;
 import com.jtrent238.youtubers.items.materials.ItemJoy_Rider_2284Ingot;
 import com.jtrent238.youtubers.items.materials.ItemLaurie201Ingot;
+import com.jtrent238.youtubers.items.materials.ItemMagna_InvictusIngot;
+import com.jtrent238.youtubers.items.materials.ItemSSundeeIngot;
 import com.jtrent238.youtubers.items.materials.ItemSethBlingIngot;
 import com.jtrent238.youtubers.items.materials.Item_MrGregor_Ingot;
 import com.jtrent238.youtubers.items.materials.ItemblohodIngot;
@@ -29,11 +42,21 @@ import com.jtrent238.youtubers.items.tools.ItemAntvenomHoe;
 import com.jtrent238.youtubers.items.tools.ItemAntvenomMultiTool;
 import com.jtrent238.youtubers.items.tools.ItemAntvenomPickaxe;
 import com.jtrent238.youtubers.items.tools.ItemAntvenomShovel;
+import com.jtrent238.youtubers.items.tools.ItemBajanCanadianAxe;
+import com.jtrent238.youtubers.items.tools.ItemBajanCanadianHoe;
+import com.jtrent238.youtubers.items.tools.ItemBajanCanadianMultiTool;
+import com.jtrent238.youtubers.items.tools.ItemBajanCanadianPickaxe;
+import com.jtrent238.youtubers.items.tools.ItemBajanCanadianShovel;
 import com.jtrent238.youtubers.items.tools.ItemDanTDMAxe;
 import com.jtrent238.youtubers.items.tools.ItemDanTDMHoe;
 import com.jtrent238.youtubers.items.tools.ItemDanTDMMultiTool;
 import com.jtrent238.youtubers.items.tools.ItemDanTDMPickaxe;
 import com.jtrent238.youtubers.items.tools.ItemDanTDMShovel;
+import com.jtrent238.youtubers.items.tools.ItemEckoSoldierAxe;
+import com.jtrent238.youtubers.items.tools.ItemEckoSoldierHoe;
+import com.jtrent238.youtubers.items.tools.ItemEckoSoldierMultiTool;
+import com.jtrent238.youtubers.items.tools.ItemEckoSoldierPickaxe;
+import com.jtrent238.youtubers.items.tools.ItemEckoSoldierShovel;
 import com.jtrent238.youtubers.items.tools.ItemFireHoe;
 import com.jtrent238.youtubers.items.tools.ItemHeyItsLuigiAxe;
 import com.jtrent238.youtubers.items.tools.ItemHeyItsLuigiHoe;
@@ -50,6 +73,16 @@ import com.jtrent238.youtubers.items.tools.ItemLaurie201Hoe;
 import com.jtrent238.youtubers.items.tools.ItemLaurie201MultiTool;
 import com.jtrent238.youtubers.items.tools.ItemLaurie201Pickaxe;
 import com.jtrent238.youtubers.items.tools.ItemLaurie201Shovel;
+import com.jtrent238.youtubers.items.tools.ItemMagna_InvictusAxe;
+import com.jtrent238.youtubers.items.tools.ItemMagna_InvictusHoe;
+import com.jtrent238.youtubers.items.tools.ItemMagna_InvictusMultiTool;
+import com.jtrent238.youtubers.items.tools.ItemMagna_InvictusPickaxe;
+import com.jtrent238.youtubers.items.tools.ItemMagna_InvictusShovel;
+import com.jtrent238.youtubers.items.tools.ItemSSundeeAxe;
+import com.jtrent238.youtubers.items.tools.ItemSSundeeHoe;
+import com.jtrent238.youtubers.items.tools.ItemSSundeeMultiTool;
+import com.jtrent238.youtubers.items.tools.ItemSSundeePickaxe;
+import com.jtrent238.youtubers.items.tools.ItemSSundeeShovel;
 import com.jtrent238.youtubers.items.tools.ItemSethBlingAxe;
 import com.jtrent238.youtubers.items.tools.ItemSethBlingHoe;
 import com.jtrent238.youtubers.items.tools.ItemSethBlingMultiTool;
@@ -81,10 +114,14 @@ import com.jtrent238.youtubers.items.tools.ItemxJSQMultiTool;
 import com.jtrent238.youtubers.items.tools.ItemxJSQPickaxe;
 import com.jtrent238.youtubers.items.tools.ItemxJSQShovel;
 import com.jtrent238.youtubers.items.tools.weapons.ItemAntvenomSword;
+import com.jtrent238.youtubers.items.tools.weapons.ItemBajanCanadianSword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemDanTDMSword;
+import com.jtrent238.youtubers.items.tools.weapons.ItemEckoSoldierSword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemHeyItsLuigiSword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemJoy_Rider_2284Sword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemLaurie201Sword;
+import com.jtrent238.youtubers.items.tools.weapons.ItemMagna_InvictusSword;
+import com.jtrent238.youtubers.items.tools.weapons.ItemSSundeeSword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemSethBlingSword;
 import com.jtrent238.youtubers.items.tools.weapons.Item_MrGregor_Sword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemblohodSword;
@@ -102,6 +139,12 @@ import net.minecraftforge.common.util.EnumHelper;
 public class ItemLoader {
 
 	public static Item ItemSpawnEgg;
+	public static Item ItemRandomBlockStructure_Placer;
+	public static Item ItemSilverPlayButton;
+	public static Item ItemGoldPlayButton;
+	public static Item ItemDiamondPlayButton;
+	public static Item ItemRubyPlayButton;
+	
 	//xJSQ Stuff
 	public static Item ItemxJSQIngot;
 	public static Item ItemxJSQHelment;
@@ -248,6 +291,58 @@ public class ItemLoader {
 	public static Item Item_MrGregor_Hoe;
 	public static Item Item_MrGregor_MultiTool;
 	
+	//SSundee Stuff
+	public static Item ItemSSundeeIngot;
+	public static Item ItemSSundeeHelment;
+	public static Item ItemSSundeeChestplate;
+	public static Item ItemSSundeeLeggings;
+	public static Item ItemSSundeeBoots;
+	public static Item ItemSSundeeSword;
+	public static Item ItemSSundeePickaxe;
+	public static Item ItemSSundeeAxe;
+	public static Item ItemSSundeeShovel;
+	public static Item ItemSSundeeHoe;
+	public static Item ItemSSundeeMultiTool;
+	
+	//Magna_Invictus Stuff
+	public static Item ItemMagna_InvictusIngot;
+	public static Item ItemMagna_InvictusHelment;
+	public static Item ItemMagna_InvictusChestplate;
+	public static Item ItemMagna_InvictusLeggings;
+	public static Item ItemMagna_InvictusBoots;
+	public static Item ItemMagna_InvictusSword;
+	public static Item ItemMagna_InvictusPickaxe;
+	public static Item ItemMagna_InvictusAxe;
+	public static Item ItemMagna_InvictusShovel;
+	public static Item ItemMagna_InvictusHoe;
+	public static Item ItemMagna_InvictusMultiTool;
+	
+	//EckoSoldier Stuff
+	public static Item ItemEckoSoldierIngot;
+	public static Item ItemEckoSoldierHelment;
+	public static Item ItemEckoSoldierChestplate;
+	public static Item ItemEckoSoldierLeggings;
+	public static Item ItemEckoSoldierBoots;
+	public static Item ItemEckoSoldierSword;
+	public static Item ItemEckoSoldierPickaxe;
+	public static Item ItemEckoSoldierAxe;
+	public static Item ItemEckoSoldierShovel;
+	public static Item ItemEckoSoldierHoe;
+	public static Item ItemEckoSoldierMultiTool;
+	
+	//BajanCanadian Stuff
+	public static Item ItemBajanCanadianIngot;
+	public static Item ItemBajanCanadianHelment;
+	public static Item ItemBajanCanadianChestplate;
+	public static Item ItemBajanCanadianLeggings;
+	public static Item ItemBajanCanadianBoots;
+	public static Item ItemBajanCanadianSword;
+	public static Item ItemBajanCanadianPickaxe;
+	public static Item ItemBajanCanadianAxe;
+	public static Item ItemBajanCanadianShovel;
+	public static Item ItemBajanCanadianHoe;
+	public static Item ItemBajanCanadianMultiTool;
+	
 	
 	private static int JSQ = 10;			//xJSQ Multiplier
 	private static int TDM = 10;			//DanTDM Multiplier
@@ -260,6 +355,10 @@ public class ItemLoader {
 	private static int JOYR = 10;			//Joy_Rider_2284 Multiplier
 	private static int JTRENT238 = 10;		//jtrent238 Multiplier
 	private static int MRGREG = 10;			//_MrGregor_ Multiplier
+	private static int SUNDEE = 10;			//SSundee Multiplier
+	private static int MAGINV = 10;			//Magna_Invictus Multiplier
+	private static int ECKO = 10;			//EckoSoldier Multiplier
+	private static int BCAN = 10;			//BajanCanadian Multiplier
 	
 	//xJSQ Tool & Armor Material
 	public static ArmorMaterial xJSQ_ARMOR = EnumHelper.addArmorMaterial("xJSQ_ARMOR", 16, new int[] {3 * JSQ, 8 * JSQ, 6 * JSQ, 3 * JSQ}, 30 * JSQ);
@@ -305,6 +404,22 @@ public class ItemLoader {
 	public static ArmorMaterial _MrGregor__ARMOR = EnumHelper.addArmorMaterial("_MrGregor__ARMOR", 16, new int[] {3 * MRGREG, 8 * MRGREG, 6 * MRGREG, 3 * MRGREG}, 30 * MRGREG);
 	public static ToolMaterial _MrGregor__TOOL = EnumHelper.addToolMaterial("_MrGregor__TOOL", 3 * MRGREG, 1561 * MRGREG, 8.0F * MRGREG, 3.0F * MRGREG, 10 * MRGREG);
 	
+	//SSundee Tool & Armor Material
+	public static ArmorMaterial SSundee_ARMOR = EnumHelper.addArmorMaterial("SSundee_ARMOR", 16, new int[] {3 * SUNDEE, 8 * SUNDEE, 6 * SUNDEE, 3 * SUNDEE}, 30 * SUNDEE);
+	public static ToolMaterial SSundee_TOOL = EnumHelper.addToolMaterial("SSundee_TOOL", 3 * SUNDEE, 1561 * SUNDEE, 8.0F * SUNDEE, 3.0F * SUNDEE, 10 * SUNDEE);
+	
+	//Magna_Invictus Tool & Armor Material
+	public static ArmorMaterial Magna_Invictus_ARMOR = EnumHelper.addArmorMaterial("Magna_Invictus_ARMOR", 16, new int[] {3 * SUNDEE, 8 * SUNDEE, 6 * SUNDEE, 3 * SUNDEE}, 30 * SUNDEE);
+	public static ToolMaterial Magna_Invictus_TOOL = EnumHelper.addToolMaterial("Magna_Invictus_TOOL", 3 * SUNDEE, 1561 * SUNDEE, 8.0F * SUNDEE, 3.0F * SUNDEE, 10 * SUNDEE);
+
+	//EckoSoldier Tool & Armor Material
+	public static ArmorMaterial EckoSoldier_ARMOR = EnumHelper.addArmorMaterial("EckoSoldier_ARMOR", 16, new int[] {3 * ECKO, 8 * ECKO, 6 * ECKO, 3 * ECKO}, 30 * ECKO);
+	public static ToolMaterial EckoSoldier_TOOL = EnumHelper.addToolMaterial("EckoSoldier_TOOL", 3 * ECKO, 1561 * ECKO, 8.0F * ECKO, 3.0F * ECKO, 10 * ECKO);
+
+	//BajanCanadian Tool & Armor Material
+	public static ArmorMaterial BajanCanadian_ARMOR = EnumHelper.addArmorMaterial("BajanCanadian_ARMOR", 16, new int[] {3 * BCAN, 8 * BCAN, 6 * BCAN, 3 * BCAN}, 30 * BCAN);
+	public static ToolMaterial BajanCanadian_TOOL = EnumHelper.addToolMaterial("BajanCanadian_TOOL", 3 * BCAN, 1561 * BCAN, 8.0F * BCAN, 3.0F * BCAN, 10 * BCAN);
+
 	/**
 	 * Load Items.
 	 */
@@ -312,7 +427,12 @@ public class ItemLoader {
 
 
 		ItemSpawnEgg = new ItemSpawnEgg().setUnlocalizedName("ItemSpawnEgg").setTextureName("youtubers:ItemSpawnEgg")/*.setCreativeTab(YouTubers.YouTubers)*/;
-		
+		ItemRandomBlockStructure_Placer = new ItemRandomBlockStructure_Placer(0).setUnlocalizedName("ItemRandomBlockStructure_Placer").setTextureName("youtubers:ItemRandomBlockStructure_Placer")/*.setCreativeTab(YouTubers.YouTubers)*/;
+		ItemSilverPlayButton = new ItemSilverPlayButton().setUnlocalizedName("ItemSilverPlayButton").setTextureName("youtubers:ItemSilverPlayButton").setCreativeTab(YouTubers.YouTubers);
+		ItemGoldPlayButton = new ItemGoldPlayButton().setUnlocalizedName("ItemGoldPlayButton").setTextureName("youtubers:ItemGoldPlayButton").setCreativeTab(YouTubers.YouTubers);
+		ItemDiamondPlayButton = new ItemDiamondPlayButton().setUnlocalizedName("ItemDiamondPlayButton").setTextureName("youtubers:ItemDiamondPlayButton").setCreativeTab(YouTubers.YouTubers);
+		ItemRubyPlayButton = new ItemRubyPlayButton().setUnlocalizedName("ItemRubyPlayButton").setTextureName("youtubers:ItemRubyPlayButton").setCreativeTab(YouTubers.YouTubers);
+
 		//xJSQ Stuff
 		ItemxJSQIngot = new ItemxJSQIngot().setUnlocalizedName("ItemxJSQIngot").setTextureName("youtubers:ItemxJSQIngot").setCreativeTab(YouTubers.YouTubers);
 		ItemxJSQHelment = new xJSQ_Armor(xJSQ_ARMOR, 0, 0).setUnlocalizedName("ItemxJSQHelment").setTextureName("youtubers:ItemxJSQHelment").setCreativeTab(YouTubers.YouTubers);
@@ -459,6 +579,58 @@ public class ItemLoader {
 		Item_MrGregor_Hoe = new Item_MrGregor_Hoe(_MrGregor__TOOL).setUnlocalizedName("Item_MrGregor_Hoe").setTextureName("youtubers:Item_MrGregor_Hoe").setCreativeTab(YouTubers.YouTubers);
 		Item_MrGregor_MultiTool = new Item_MrGregor_MultiTool(_MrGregor__TOOL).setUnlocalizedName("Item_MrGregor_MultiTool").setTextureName("youtubers:Item_MrGregor_MultiTool").setCreativeTab(YouTubers.YouTubers);
 	
+		//SSundee Stuff
+		ItemSSundeeIngot = new ItemSSundeeIngot().setUnlocalizedName("ItemSSundeeIngot").setTextureName("youtubers:ItemSSundeeIngot").setCreativeTab(YouTubers.YouTubers);
+		ItemSSundeeHelment = new SSundee_Armor(SSundee_ARMOR, 0, 0).setUnlocalizedName("ItemSSundeeHelment").setTextureName("youtubers:ItemSSundeeHelment").setCreativeTab(YouTubers.YouTubers);
+		ItemSSundeeChestplate = new SSundee_Armor(SSundee_ARMOR, 1, 1).setUnlocalizedName("ItemSSundeeChestplate").setTextureName("youtubers:ItemSSundeeChestplate").setCreativeTab(YouTubers.YouTubers);
+		ItemSSundeeLeggings = new SSundee_Armor(SSundee_ARMOR, 2, 2).setUnlocalizedName("ItemSSundeeLeggings").setTextureName("youtubers:ItemSSundeeLeggings").setCreativeTab(YouTubers.YouTubers);
+		ItemSSundeeBoots = new SSundee_Armor(SSundee_ARMOR, 3, 3).setUnlocalizedName("ItemSSundeeBoots").setTextureName("youtubers:ItemSSundeeBoots").setCreativeTab(YouTubers.YouTubers);
+		ItemSSundeeSword = new ItemSSundeeSword(SSundee_TOOL).setUnlocalizedName("ItemSSundeeSword").setTextureName("youtubers:ItemSSundeeSword").setCreativeTab(YouTubers.YouTubers);
+		ItemSSundeePickaxe = new ItemSSundeePickaxe(SSundee_TOOL).setUnlocalizedName("ItemSSundeePickaxe").setTextureName("youtubers:ItemSSundeePickaxe").setCreativeTab(YouTubers.YouTubers);
+		ItemSSundeeAxe = new ItemSSundeeAxe(SSundee_TOOL).setUnlocalizedName("ItemSSundeeAxe").setTextureName("youtubers:ItemSSundeeAxe").setCreativeTab(YouTubers.YouTubers);
+		ItemSSundeeShovel = new ItemSSundeeShovel(SSundee_TOOL).setUnlocalizedName("ItemSSundeeShovel").setTextureName("youtubers:ItemSSundeeShovel").setCreativeTab(YouTubers.YouTubers);
+		ItemSSundeeHoe = new ItemSSundeeHoe(SSundee_TOOL).setUnlocalizedName("ItemSSundeeHoe").setTextureName("youtubers:ItemSSundeeHoe").setCreativeTab(YouTubers.YouTubers);
+		ItemSSundeeMultiTool = new ItemSSundeeMultiTool(SSundee_TOOL).setUnlocalizedName("ItemSSundeeMultiTool").setTextureName("youtubers:ItemSSundeeMultiTool").setCreativeTab(YouTubers.YouTubers);
+	
+		//Magna_Invictus Stuff
+		ItemMagna_InvictusIngot = new ItemMagna_InvictusIngot().setUnlocalizedName("ItemMagna_InvictusIngot").setTextureName("youtubers:ItemMagna_InvictusIngot").setCreativeTab(YouTubers.YouTubers);
+		ItemMagna_InvictusHelment = new Magna_Invictus_Armor(Magna_Invictus_ARMOR, 0, 0).setUnlocalizedName("ItemMagna_InvictusHelment").setTextureName("youtubers:ItemMagna_InvictusHelment").setCreativeTab(YouTubers.YouTubers);
+		ItemMagna_InvictusChestplate = new Magna_Invictus_Armor(Magna_Invictus_ARMOR, 1, 1).setUnlocalizedName("ItemMagna_InvictusChestplate").setTextureName("youtubers:ItemMagna_InvictusChestplate").setCreativeTab(YouTubers.YouTubers);
+		ItemMagna_InvictusLeggings = new Magna_Invictus_Armor(Magna_Invictus_ARMOR, 2, 2).setUnlocalizedName("ItemMagna_InvictusLeggings").setTextureName("youtubers:ItemMagna_InvictusLeggings").setCreativeTab(YouTubers.YouTubers);
+		ItemMagna_InvictusBoots = new Magna_Invictus_Armor(Magna_Invictus_ARMOR, 3, 3).setUnlocalizedName("ItemMagna_InvictusBoots").setTextureName("youtubers:ItemMagna_InvictusBoots").setCreativeTab(YouTubers.YouTubers);
+		ItemMagna_InvictusSword = new ItemMagna_InvictusSword(Magna_Invictus_TOOL).setUnlocalizedName("ItemMagna_InvictusSword").setTextureName("youtubers:ItemMagna_InvictusSword").setCreativeTab(YouTubers.YouTubers);
+		ItemMagna_InvictusPickaxe = new ItemMagna_InvictusPickaxe(Magna_Invictus_TOOL).setUnlocalizedName("ItemMagna_InvictusPickaxe").setTextureName("youtubers:ItemMagna_InvictusPickaxe").setCreativeTab(YouTubers.YouTubers);
+		ItemMagna_InvictusAxe = new ItemMagna_InvictusAxe(Magna_Invictus_TOOL).setUnlocalizedName("ItemMagna_InvictusAxe").setTextureName("youtubers:ItemMagna_InvictusAxe").setCreativeTab(YouTubers.YouTubers);
+		ItemMagna_InvictusShovel = new ItemMagna_InvictusShovel(Magna_Invictus_TOOL).setUnlocalizedName("ItemMagna_InvictusShovel").setTextureName("youtubers:ItemMagna_InvictusShovel").setCreativeTab(YouTubers.YouTubers);
+		ItemMagna_InvictusHoe = new ItemMagna_InvictusHoe(Magna_Invictus_TOOL).setUnlocalizedName("ItemMagna_InvictusHoe").setTextureName("youtubers:ItemMagna_InvictusHoe").setCreativeTab(YouTubers.YouTubers);
+		ItemMagna_InvictusMultiTool = new ItemMagna_InvictusMultiTool(Magna_Invictus_TOOL).setUnlocalizedName("ItemMagna_InvictusMultiTool").setTextureName("youtubers:ItemMagna_InvictusMultiTool").setCreativeTab(YouTubers.YouTubers);
+
+		//EckoSoldier Stuff
+		ItemEckoSoldierIngot = new ItemEckoSoldierIngot().setUnlocalizedName("ItemEckoSoldierIngot").setTextureName("youtubers:ItemEckoSoldierIngot").setCreativeTab(YouTubers.YouTubers);
+		ItemEckoSoldierHelment = new EckoSoldier_Armor(EckoSoldier_ARMOR, 0, 0).setUnlocalizedName("ItemEckoSoldierHelment").setTextureName("youtubers:ItemEckoSoldierHelment").setCreativeTab(YouTubers.YouTubers);
+		ItemEckoSoldierChestplate = new EckoSoldier_Armor(EckoSoldier_ARMOR, 1, 1).setUnlocalizedName("ItemEckoSoldierChestplate").setTextureName("youtubers:ItemEckoSoldierChestplate").setCreativeTab(YouTubers.YouTubers);
+		ItemEckoSoldierLeggings = new EckoSoldier_Armor(EckoSoldier_ARMOR, 2, 2).setUnlocalizedName("ItemEckoSoldierLeggings").setTextureName("youtubers:ItemEckoSoldierLeggings").setCreativeTab(YouTubers.YouTubers);
+		ItemEckoSoldierBoots = new EckoSoldier_Armor(EckoSoldier_ARMOR, 3, 3).setUnlocalizedName("ItemEckoSoldierBoots").setTextureName("youtubers:ItemEckoSoldierBoots").setCreativeTab(YouTubers.YouTubers);
+		ItemEckoSoldierSword = new ItemEckoSoldierSword(EckoSoldier_TOOL).setUnlocalizedName("ItemEckoSoldierSword").setTextureName("youtubers:ItemEckoSoldierSword").setCreativeTab(YouTubers.YouTubers);
+		ItemEckoSoldierPickaxe = new ItemEckoSoldierPickaxe(EckoSoldier_TOOL).setUnlocalizedName("ItemEckoSoldierPickaxe").setTextureName("youtubers:ItemEckoSoldierPickaxe").setCreativeTab(YouTubers.YouTubers);
+		ItemEckoSoldierAxe = new ItemEckoSoldierAxe(EckoSoldier_TOOL).setUnlocalizedName("ItemEckoSoldierAxe").setTextureName("youtubers:ItemEckoSoldierAxe").setCreativeTab(YouTubers.YouTubers);
+		ItemEckoSoldierShovel = new ItemEckoSoldierShovel(EckoSoldier_TOOL).setUnlocalizedName("ItemEckoSoldierShovel").setTextureName("youtubers:ItemEckoSoldierShovel").setCreativeTab(YouTubers.YouTubers);
+		ItemEckoSoldierHoe = new ItemEckoSoldierHoe(EckoSoldier_TOOL).setUnlocalizedName("ItemEckoSoldierHoe").setTextureName("youtubers:ItemEckoSoldierHoe").setCreativeTab(YouTubers.YouTubers);
+		ItemEckoSoldierMultiTool = new ItemEckoSoldierMultiTool(EckoSoldier_TOOL).setUnlocalizedName("ItemEckoSoldierMultiTool").setTextureName("youtubers:ItemEckoSoldierMultiTool").setCreativeTab(YouTubers.YouTubers);
+
+		//BajanCanadian Stuff
+		ItemBajanCanadianIngot = new ItemBajanCanadianIngot().setUnlocalizedName("ItemBajanCanadianIngot").setTextureName("youtubers:ItemBajanCanadianIngot").setCreativeTab(YouTubers.YouTubers);
+		ItemBajanCanadianHelment = new BajanCanadian_Armor(BajanCanadian_ARMOR, 0, 0).setUnlocalizedName("ItemBajanCanadianHelment").setTextureName("youtubers:ItemBajanCanadianHelment").setCreativeTab(YouTubers.YouTubers);
+		ItemBajanCanadianChestplate = new BajanCanadian_Armor(BajanCanadian_ARMOR, 1, 1).setUnlocalizedName("ItemBajanCanadianChestplate").setTextureName("youtubers:ItemBajanCanadianChestplate").setCreativeTab(YouTubers.YouTubers);
+		ItemBajanCanadianLeggings = new BajanCanadian_Armor(BajanCanadian_ARMOR, 2, 2).setUnlocalizedName("ItemBajanCanadianLeggings").setTextureName("youtubers:ItemBajanCanadianLeggings").setCreativeTab(YouTubers.YouTubers);
+		ItemBajanCanadianBoots = new BajanCanadian_Armor(BajanCanadian_ARMOR, 3, 3).setUnlocalizedName("ItemBajanCanadianBoots").setTextureName("youtubers:ItemBajanCanadianBoots").setCreativeTab(YouTubers.YouTubers);
+		ItemBajanCanadianSword = new ItemBajanCanadianSword(BajanCanadian_TOOL).setUnlocalizedName("ItemBajanCanadianSword").setTextureName("youtubers:ItemBajanCanadianSword").setCreativeTab(YouTubers.YouTubers);
+		ItemBajanCanadianPickaxe = new ItemBajanCanadianPickaxe(BajanCanadian_TOOL).setUnlocalizedName("ItemBajanCanadianPickaxe").setTextureName("youtubers:ItemBajanCanadianPickaxe").setCreativeTab(YouTubers.YouTubers);
+		ItemBajanCanadianAxe = new ItemBajanCanadianAxe(BajanCanadian_TOOL).setUnlocalizedName("ItemBajanCanadianAxe").setTextureName("youtubers:ItemBajanCanadianAxe").setCreativeTab(YouTubers.YouTubers);
+		ItemBajanCanadianShovel = new ItemBajanCanadianShovel(BajanCanadian_TOOL).setUnlocalizedName("ItemBajanCanadianShovel").setTextureName("youtubers:ItemBajanCanadianShovel").setCreativeTab(YouTubers.YouTubers);
+		ItemBajanCanadianHoe = new ItemBajanCanadianHoe(BajanCanadian_TOOL).setUnlocalizedName("ItemBajanCanadianHoe").setTextureName("youtubers:ItemBajanCanadianHoe").setCreativeTab(YouTubers.YouTubers);
+		ItemBajanCanadianMultiTool = new ItemBajanCanadianMultiTool(BajanCanadian_TOOL).setUnlocalizedName("ItemBajanCanadianMultiTool").setTextureName("youtubers:ItemBajanCanadianMultiTool").setCreativeTab(YouTubers.YouTubers);
+
 		registerItems();
 		
 	}
@@ -469,7 +641,12 @@ public class ItemLoader {
 	private static void registerItems(){
 		
 		GameRegistry.registerItem(ItemSpawnEgg, ItemSpawnEgg.getUnlocalizedName().substring(5));
-		
+		GameRegistry.registerItem(ItemRandomBlockStructure_Placer, ItemRandomBlockStructure_Placer.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemSilverPlayButton, ItemSilverPlayButton.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemGoldPlayButton, ItemGoldPlayButton.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemDiamondPlayButton, ItemDiamondPlayButton.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemRubyPlayButton, ItemRubyPlayButton.getUnlocalizedName().substring(5));
+
 		//xJSQ Stuff
 		GameRegistry.registerItem(ItemxJSQIngot, ItemxJSQIngot.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(ItemxJSQHelment, ItemxJSQHelment.getUnlocalizedName().substring(5));
@@ -615,6 +792,71 @@ public class ItemLoader {
 		GameRegistry.registerItem(Item_MrGregor_Shovel, Item_MrGregor_Shovel.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(Item_MrGregor_Hoe, Item_MrGregor_Hoe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(Item_MrGregor_MultiTool, Item_MrGregor_MultiTool.getUnlocalizedName().substring(5));
+
+		//SSundee Stuff
+		GameRegistry.registerItem(ItemSSundeeIngot, ItemSSundeeIngot.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemSSundeeHelment, ItemSSundeeHelment.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemSSundeeChestplate, ItemSSundeeChestplate.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemSSundeeLeggings, ItemSSundeeLeggings.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemSSundeeBoots, ItemSSundeeBoots.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemSSundeeSword, ItemSSundeeSword.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemSSundeePickaxe, ItemSSundeePickaxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemSSundeeAxe, ItemSSundeeAxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemSSundeeShovel, ItemSSundeeShovel.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemSSundeeHoe, ItemSSundeeHoe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemSSundeeMultiTool, ItemSSundeeMultiTool.getUnlocalizedName().substring(5));
+
+		//Magna_Invictus Stuff
+		GameRegistry.registerItem(ItemMagna_InvictusIngot, ItemMagna_InvictusIngot.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemMagna_InvictusHelment, ItemMagna_InvictusHelment.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemMagna_InvictusChestplate, ItemMagna_InvictusChestplate.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemMagna_InvictusLeggings, ItemMagna_InvictusLeggings.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemMagna_InvictusBoots, ItemMagna_InvictusBoots.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemMagna_InvictusSword, ItemMagna_InvictusSword.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemMagna_InvictusPickaxe, ItemMagna_InvictusPickaxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemMagna_InvictusAxe, ItemMagna_InvictusAxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemMagna_InvictusShovel, ItemMagna_InvictusShovel.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemMagna_InvictusHoe, ItemMagna_InvictusHoe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemMagna_InvictusMultiTool, ItemMagna_InvictusMultiTool.getUnlocalizedName().substring(5));
+
+		//EckoSoldier Stuff
+		GameRegistry.registerItem(ItemEckoSoldierIngot, ItemEckoSoldierIngot.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierHelment, ItemEckoSoldierHelment.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierChestplate, ItemEckoSoldierChestplate.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierLeggings, ItemEckoSoldierLeggings.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierBoots, ItemEckoSoldierBoots.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierSword, ItemEckoSoldierSword.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierPickaxe, ItemEckoSoldierPickaxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierAxe, ItemEckoSoldierAxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierShovel, ItemEckoSoldierShovel.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierHoe, ItemEckoSoldierHoe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierMultiTool, ItemEckoSoldierMultiTool.getUnlocalizedName().substring(5));
+
+		//EckoSoldier Stuff
+		GameRegistry.registerItem(ItemEckoSoldierIngot, ItemEckoSoldierIngot.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierHelment, ItemEckoSoldierHelment.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierChestplate, ItemEckoSoldierChestplate.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierLeggings, ItemEckoSoldierLeggings.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierBoots, ItemEckoSoldierBoots.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierSword, ItemEckoSoldierSword.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierPickaxe, ItemEckoSoldierPickaxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierAxe, ItemEckoSoldierAxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierShovel, ItemEckoSoldierShovel.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierHoe, ItemEckoSoldierHoe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEckoSoldierMultiTool, ItemEckoSoldierMultiTool.getUnlocalizedName().substring(5));
+
+		//BajanCanadian Stuff
+		GameRegistry.registerItem(ItemBajanCanadianIngot, ItemBajanCanadianIngot.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemBajanCanadianHelment, ItemBajanCanadianHelment.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemBajanCanadianChestplate, ItemBajanCanadianChestplate.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemBajanCanadianLeggings, ItemBajanCanadianLeggings.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemBajanCanadianBoots, ItemBajanCanadianBoots.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemBajanCanadianSword, ItemBajanCanadianSword.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemBajanCanadianPickaxe, ItemBajanCanadianPickaxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemBajanCanadianAxe, ItemBajanCanadianAxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemBajanCanadianShovel, ItemBajanCanadianShovel.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemBajanCanadianHoe, ItemBajanCanadianHoe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemBajanCanadianMultiTool, ItemBajanCanadianMultiTool.getUnlocalizedName().substring(5));
 
 	}
 }

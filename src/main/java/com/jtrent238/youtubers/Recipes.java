@@ -153,6 +153,54 @@ public class Recipes {
 		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Item_MrGregor_Leggings), "III", "IBI", "IBI", 'I', ItemLoader.Item_MrGregor_Ingot);
 		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.Item_MrGregor_Boots), "IBI", "IBI", 'I', ItemLoader.Item_MrGregor_Ingot);
 
+		//SSundee Crafting Recipes
+		GameRegistry.addShapedRecipe(new ItemStack(BlockLoader.BlockSSundee), "XXX", "XXX", "XXX", 'X', ItemLoader.ItemSSundeeIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemSSundeeSword), "I", "I", "S", 'I', ItemLoader.ItemSSundeeIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemSSundeePickaxe), "III", "BSB", "BSB", 'I', ItemLoader.ItemSSundeeIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemSSundeeAxe), "IIB", "ISB", "BSB", 'I', ItemLoader.ItemSSundeeIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemSSundeeShovel), "BIB", "BSB", "BSB", 'I', ItemLoader.ItemSSundeeIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemSSundeeHoe), "IIB", "BSB", "BSB", 'I', ItemLoader.ItemSSundeeIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemSSundeeHelment), "III", "IBI", 'I', ItemLoader.ItemSSundeeIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemSSundeeChestplate), "IBI", "III", "III", 'I', ItemLoader.ItemSSundeeIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemSSundeeLeggings), "III", "IBI", "IBI", 'I', ItemLoader.ItemSSundeeIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemSSundeeBoots), "IBI", "IBI", 'I', ItemLoader.ItemSSundeeIngot);
+		
+		//Magna_Invictus Crafting Recipes
+		GameRegistry.addShapedRecipe(new ItemStack(BlockLoader.BlockMagna_Invictus), "XXX", "XXX", "XXX", 'X', ItemLoader.ItemMagna_InvictusIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemMagna_InvictusSword), "I", "I", "S", 'I', ItemLoader.ItemMagna_InvictusIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemMagna_InvictusPickaxe), "III", "BSB", "BSB", 'I', ItemLoader.ItemMagna_InvictusIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemMagna_InvictusAxe), "IIB", "ISB", "BSB", 'I', ItemLoader.ItemMagna_InvictusIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemMagna_InvictusShovel), "BIB", "BSB", "BSB", 'I', ItemLoader.ItemMagna_InvictusIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemMagna_InvictusHoe), "IIB", "BSB", "BSB", 'I', ItemLoader.ItemMagna_InvictusIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemMagna_InvictusHelment), "III", "IBI", 'I', ItemLoader.ItemMagna_InvictusIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemMagna_InvictusChestplate), "IBI", "III", "III", 'I', ItemLoader.ItemMagna_InvictusIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemMagna_InvictusLeggings), "III", "IBI", "IBI", 'I', ItemLoader.ItemMagna_InvictusIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemMagna_InvictusBoots), "IBI", "IBI", 'I', ItemLoader.ItemMagna_InvictusIngot);
+
+		//EckoSoldier Crafting Recipes
+		GameRegistry.addShapedRecipe(new ItemStack(BlockLoader.BlockEckoSoldier), "XXX", "XXX", "XXX", 'X', ItemLoader.ItemEckoSoldierIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemEckoSoldierSword), "I", "I", "S", 'I', ItemLoader.ItemEckoSoldierIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemEckoSoldierPickaxe), "III", "BSB", "BSB", 'I', ItemLoader.ItemEckoSoldierIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemEckoSoldierAxe), "IIB", "ISB", "BSB", 'I', ItemLoader.ItemEckoSoldierIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemEckoSoldierShovel), "BIB", "BSB", "BSB", 'I', ItemLoader.ItemEckoSoldierIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemEckoSoldierHoe), "IIB", "BSB", "BSB", 'I', ItemLoader.ItemEckoSoldierIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemEckoSoldierHelment), "III", "IBI", 'I', ItemLoader.ItemEckoSoldierIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemEckoSoldierChestplate), "IBI", "III", "III", 'I', ItemLoader.ItemEckoSoldierIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemEckoSoldierLeggings), "III", "IBI", "IBI", 'I', ItemLoader.ItemEckoSoldierIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemEckoSoldierBoots), "IBI", "IBI", 'I', ItemLoader.ItemEckoSoldierIngot);
+
+		//BajanCanadian Crafting Recipes
+		GameRegistry.addShapedRecipe(new ItemStack(BlockLoader.BlockBajanCanadian), "XXX", "XXX", "XXX", 'X', ItemLoader.ItemBajanCanadianIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemBajanCanadianSword), "I", "I", "S", 'I', ItemLoader.ItemBajanCanadianIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemBajanCanadianPickaxe), "III", "BSB", "BSB", 'I', ItemLoader.ItemBajanCanadianIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemBajanCanadianAxe), "IIB", "ISB", "BSB", 'I', ItemLoader.ItemBajanCanadianIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemBajanCanadianShovel), "BIB", "BSB", "BSB", 'I', ItemLoader.ItemBajanCanadianIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemBajanCanadianHoe), "IIB", "BSB", "BSB", 'I', ItemLoader.ItemBajanCanadianIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemBajanCanadianHelment), "III", "IBI", 'I', ItemLoader.ItemBajanCanadianIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemBajanCanadianChestplate), "IBI", "III", "III", 'I', ItemLoader.ItemBajanCanadianIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemBajanCanadianLeggings), "III", "IBI", "IBI", 'I', ItemLoader.ItemBajanCanadianIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemBajanCanadianBoots), "IBI", "IBI", 'I', ItemLoader.ItemBajanCanadianIngot);
+
 	}
 	
 	/**
@@ -176,6 +224,11 @@ public class Recipes {
 		GameRegistry.addSmelting(BlockLoader.BlockJoy_Rider_2284Ore, new ItemStack (ItemLoader.ItemJoy_Rider_2284Ingot, 1), 2F );
 		GameRegistry.addSmelting(BlockLoader.Blockjtrent238Ore, new ItemStack (ItemLoader.Itemjtrent238Ingot, 1), 2F );
 		GameRegistry.addSmelting(BlockLoader.Block_MrGregor_Ore, new ItemStack (ItemLoader.Item_MrGregor_Ingot, 1), 2F );
+		GameRegistry.addSmelting(BlockLoader.BlockSSundeeOre, new ItemStack (ItemLoader.ItemSSundeeIngot, 1), 2F );
+		GameRegistry.addSmelting(BlockLoader.BlockMagna_InvictusOre, new ItemStack (ItemLoader.ItemMagna_InvictusIngot, 1), 2F );
+		GameRegistry.addSmelting(BlockLoader.BlockEckoSoldierOre, new ItemStack (ItemLoader.ItemEckoSoldierIngot, 1), 2F );
+		GameRegistry.addSmelting(BlockLoader.BlockBajanCanadianOre, new ItemStack (ItemLoader.ItemBajanCanadianIngot, 1), 2F );
+
 		
 		
 		}

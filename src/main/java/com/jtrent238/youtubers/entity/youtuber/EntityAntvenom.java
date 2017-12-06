@@ -116,12 +116,19 @@ protected void addRandomArmor(){
             return true;
         }
         
+    	
 	    /**
 	     * Drop items of this living's type
 	     */
 	    protected void dropFewItems(boolean var1, int var2)
 	    {
-	    	this.entityDropItem(new ItemStack(BlockLoader.BlockGlitch, 1), 4F);
+	    	Random rn = new Random();
+	    	int max = 6;
+	    	int min = 1;
+	    	int result = rn.nextInt(max - min + 1) + min;
+	    	System.out.println(result);
+	    	
+	    	this.entityDropItem(new ItemStack(BlockLoader.BlockGlitch, result), 1F);
 	    }
 
 	    /**

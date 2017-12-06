@@ -1,5 +1,7 @@
 package com.jtrent238.youtubers.entity.youtuber;
 
+import java.util.Random;
+
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.SharedMonsterAttributes;
@@ -107,7 +109,13 @@ protected void addRandomArmor(){
      */
     protected void dropFewItems(boolean var1, int var2)
     {
-    	this.entityDropItem(new ItemStack(Items.golden_apple, 32, 1), 1F);
+    	Random rn = new Random();
+    	int max = 32;
+    	int min = 1;
+    	int result = rn.nextInt(max - min + 1) + min;
+    	System.out.println(result);
+    	
+    	this.entityDropItem(new ItemStack(Items.golden_apple, result, 1), 1F);
     }
 
     /**

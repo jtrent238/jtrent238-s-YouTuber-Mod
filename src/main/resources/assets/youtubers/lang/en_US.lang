@@ -1,11 +1,22 @@
 //jtrent238's YouTuber Mod Language File
 
+	//Creative Tabs
+itemgroup.YouTubers=jtrent238's YouTubers Mod
+
 	//Players
 entity.Entitycaptainspy6.name=captainspy6
 entity.EntityHER08RINE.name=HER08RINE
+entity.EntityAlexIsCool.name=AlexIsCool
+entity.EntitymegablasterT.name=megablasterT
+entity.EntityCowMan.name=CowMan
+entity.EntityFar.name=Far
 
 	//other Items
 item.ItemSpawnEgg.name=Spawn Egg
+item.ItemSilverPlayButton.name=Silver YouTube Play Button
+item.ItemGoldPlayButton.name=Gold YouTube Play Button
+item.ItemDiamondPlayButton.name=Diamond YouTube Play Button
+item.ItemRubyPlayButton.name=Ruby YouTube Play Button
 
 	//xJSQ
 entity.EntityxJSQ.name=xJSQ
@@ -188,3 +199,67 @@ item.Item_MrGregor_Hoe.name=_MrGregor_ Shovel
 item.Item_MrGregor_MultiTool.name=_MrGregor_ Multitool
 tile.Block_MrGregor_Ore.name=_MrGregor_ Ore
 tile.Block_MrGregor_.name=_MrGregor_ Block
+
+	//SSundee
+entity.EntitySSundee.name=SSundee
+item.ItemSSundeeIngot.name=SSundee Ingot
+item.ItemSSundeeHelment.name=SSundee Helment
+item.ItemSSundeeChestplate.name=SSundee Chestplate
+item.ItemSSundeeLeggings.name=SSundee Leggings
+item.ItemSSundeeBoots.name=SSundee Boots
+item.ItemSSundeeSword.name=SSundee Sword
+item.ItemSSundeePickaxe.name=SSundee Pickaxe
+item.ItemSSundeeAxe.name=SSundee Axe
+item.ItemSSundeeShovel.name=SSundee Shovel
+item.ItemSSundeeHoe.name=SSundee Shovel
+item.ItemSSundeeMultiTool.name=SSundee Multitool
+tile.BlockSSundeeOre.name=SSundee Ore
+tile.BlockSSundee.name=SSundee Block
+
+	//Magna_Invictus
+entity.EntityMagna_Invictus.name=Magna_Invictus
+item.ItemMagna_InvictusIngot.name=Magna_Invictus Ingot
+item.ItemMagna_InvictusHelment.name=Magna_Invictus Helment
+item.ItemMagna_InvictusChestplate.name=Magna_Invictus Chestplate
+item.ItemMagna_InvictusLeggings.name=Magna_Invictus Leggings
+item.ItemMagna_InvictusBoots.name=Magna_Invictus Boots
+item.ItemMagna_InvictusSword.name=Magna_Invictus Sword
+item.ItemMagna_InvictusPickaxe.name=Magna_Invictus Pickaxe
+item.ItemMagna_InvictusAxe.name=Magna_Invictus Axe
+item.ItemMagna_InvictusShovel.name=Magna_Invictus Shovel
+item.ItemMagna_InvictusHoe.name=Magna_Invictus Shovel
+item.ItemMagna_InvictusMultiTool.name=Magna_Invictus Multitool
+tile.BlockMagna_InvictusOre.name=Magna_Invictus Ore
+tile.BlockMagna_Invictus.name=Magna_Invictus Block
+
+//EckoSoldier
+entity.EntityEckoSoldier.name=EckoSoldier
+item.ItemEckoSoldierIngot.name=EckoSoldier Ingot
+item.ItemEckoSoldierHelment.name=EckoSoldier Helment
+item.ItemEckoSoldierChestplate.name=EckoSoldier Chestplate
+item.ItemEckoSoldierLeggings.name=EckoSoldier Leggings
+item.ItemEckoSoldierBoots.name=EckoSoldier Boots
+item.ItemEckoSoldierSword.name=EckoSoldier Sword
+item.ItemEckoSoldierPickaxe.name=EckoSoldier Pickaxe
+item.ItemEckoSoldierAxe.name=EckoSoldier Axe
+item.ItemEckoSoldierShovel.name=EckoSoldier Shovel
+item.ItemEckoSoldierHoe.name=EckoSoldier Shovel
+item.ItemEckoSoldierMultiTool.name=EckoSoldier Multitool
+tile.BlockEckoSoldierOre.name=EckoSoldier Ore
+tile.BlockEckoSoldier.name=EckoSoldier Block
+
+//BajanCanadian
+entity.EntityBajanCanadian.name=BajanCanadian
+item.ItemBajanCanadianIngot.name=BajanCanadian Ingot
+item.ItemBajanCanadianHelment.name=BajanCanadian Helment
+item.ItemBajanCanadianChestplate.name=BajanCanadian Chestplate
+item.ItemBajanCanadianLeggings.name=BajanCanadian Leggings
+item.ItemBajanCanadianBoots.name=BajanCanadian Boots
+item.ItemBajanCanadianSword.name=BajanCanadian Sword
+item.ItemBajanCanadianPickaxe.name=BajanCanadian Pickaxe
+item.ItemBajanCanadianAxe.name=BajanCanadian Axe
+item.ItemBajanCanadianShovel.name=BajanCanadian Shovel
+item.ItemBajanCanadianHoe.name=BajanCanadian Shovel
+item.ItemBajanCanadianMultiTool.name=BajanCanadian Multitool
+tile.BlockBajanCanadianOre.name=BajanCanadian Ore
+tile.BlockBajanCanadian.name=BajanCanadian Block
