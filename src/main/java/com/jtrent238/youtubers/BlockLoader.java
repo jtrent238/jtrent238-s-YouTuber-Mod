@@ -4,12 +4,17 @@ import com.jtrent238.youtubers.blocks.BlockAntvenomOre;
 import com.jtrent238.youtubers.blocks.BlockBajanCanadianOre;
 import com.jtrent238.youtubers.blocks.BlockGlitch;
 import com.jtrent238.youtubers.blocks.BlockDanTDMOre;
+import com.jtrent238.youtubers.blocks.BlockDanTDM_Logo;
+import com.jtrent238.youtubers.blocks.BlockDecoCommandBlock_Chain;
+import com.jtrent238.youtubers.blocks.BlockDecoCommandBlock_Impulse;
+import com.jtrent238.youtubers.blocks.BlockDecoCommandBlock_Repeat;
 import com.jtrent238.youtubers.blocks.BlockEckoSoldierOre;
 import com.jtrent238.youtubers.blocks.BlockHeyItsLuigiEgg;
 import com.jtrent238.youtubers.blocks.BlockHeyItsLuigiOre;
 import com.jtrent238.youtubers.blocks.BlockJoy_Rider_2284Ore;
 import com.jtrent238.youtubers.blocks.BlockLaurie201Ore;
 import com.jtrent238.youtubers.blocks.BlockMagna_InvictusOre;
+import com.jtrent238.youtubers.blocks.BlockRealThinknoodlesOre;
 import com.jtrent238.youtubers.blocks.BlockSSundeeOre;
 import com.jtrent238.youtubers.blocks.BlockSethBlingOre;
 import com.jtrent238.youtubers.blocks.BlockTerraCube;
@@ -26,6 +31,7 @@ import com.jtrent238.youtubers.blocks.materials.BlockHeyItsLuigi;
 import com.jtrent238.youtubers.blocks.materials.BlockJoy_Rider_2284;
 import com.jtrent238.youtubers.blocks.materials.BlockLaurie201;
 import com.jtrent238.youtubers.blocks.materials.BlockMagna_Invictus;
+import com.jtrent238.youtubers.blocks.materials.BlockRealThinknoodles;
 import com.jtrent238.youtubers.blocks.materials.BlockSSundee;
 import com.jtrent238.youtubers.blocks.materials.BlockSethBling;
 import com.jtrent238.youtubers.blocks.materials.Block_MrGregor_;
@@ -40,6 +46,10 @@ import net.minecraft.block.material.Material;
 
 public class BlockLoader {
 
+	public static Block BlockDecoCommandBlock_Impulse;
+	public static Block BlockDecoCommandBlock_Chain;
+	public static Block BlockDecoCommandBlock_Repeat;
+	
 	//xJSQ Blocks
 	public static Block BlockxJSQOre;
 	public static Block BlockxJSQ;
@@ -47,6 +57,8 @@ public class BlockLoader {
 	//DanTDM Blocks
 	public static Block BlockDanTDMOre;
 	public static Block BlockDanTDM;
+	public static Block BlockDanTDM_Logo;
+	
 	
 	//SethBling Blocks
 	public static Block BlockSethBlingOre;
@@ -102,12 +114,19 @@ public class BlockLoader {
 	//BajanCanadian Blocks
 	public static Block BlockBajanCanadianOre;
 	public static Block BlockBajanCanadian;
-
 	
+	//RealThinknoodles Blocks
+	public static Block BlockRealThinknoodlesOre;
+	public static Block BlockRealThinknoodles;
+
 	/**
 	 * Load Blocks.
 	 */
 	public static void loadBlocks() {
+		
+		BlockDecoCommandBlock_Impulse = new BlockDecoCommandBlock_Impulse(Material.rock).setBlockName("BlockDecoCommandBlock_Impulse").setBlockTextureName("youtubers:BlockDecoCommandBlock_Impulse").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
+		BlockDecoCommandBlock_Chain = new BlockDecoCommandBlock_Chain(Material.rock).setBlockName("BlockDecoCommandBlock_Chain").setBlockTextureName("youtubers:BlockDecoCommandBlock_Chain").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
+		BlockDecoCommandBlock_Repeat = new BlockDecoCommandBlock_Repeat(Material.rock).setBlockName("BlockDecoCommandBlock_Repeat").setBlockTextureName("youtubers:BlockDecoCommandBlock_Repeat").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
 		
 		//xJSQ Blocks
 		BlockxJSQOre = new BlockxJSQOre(Material.rock).setBlockName("BlockxJSQOre").setBlockTextureName("youtubers:BlockxJSQOre").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
@@ -116,6 +135,7 @@ public class BlockLoader {
 		//DanTDM Blocks
 		BlockDanTDMOre = new BlockDanTDMOre(Material.rock).setBlockName("BlockDanTDMOre").setBlockTextureName("youtubers:BlockDanTDMOre").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
 		BlockDanTDM = new BlockDanTDM(Material.iron).setBlockName("BlockDanTDM").setBlockTextureName("youtubers:BlockDanTDM").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
+		BlockDanTDM_Logo = new BlockDanTDM_Logo(Material.iron).setBlockName("BlockDanTDM_Logo").setBlockTextureName("youtubers:BlockDanTDM_Logo").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
 		
 		//SethBling Blocks
 		BlockSethBlingOre = new BlockSethBlingOre(false).setBlockName("BlockSethBlingOre").setBlockTextureName("youtubers:BlockSethBlingOre").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
@@ -171,6 +191,10 @@ public class BlockLoader {
 		//BajanCanadian Blocks
 		BlockBajanCanadianOre = new BlockBajanCanadianOre(Material.rock).setBlockName("BlockBajanCanadianOre").setBlockTextureName("youtubers:BlockBajanCanadianOre").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
 		BlockBajanCanadian = new BlockBajanCanadian(Material.iron).setBlockName("BlockBajanCanadian").setBlockTextureName("youtubers:BlockBajanCanadian").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
+		
+		//RealThinknoodles Blocks
+		BlockRealThinknoodlesOre = new BlockRealThinknoodlesOre(Material.rock).setBlockName("BlockRealThinknoodlesOre").setBlockTextureName("youtubers:BlockRealThinknoodlesOre").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
+		BlockRealThinknoodles = new BlockRealThinknoodles(Material.iron).setBlockName("BlockRealThinknoodles").setBlockTextureName("youtubers:BlockRealThinknoodles").setCreativeTab(YouTubers.YouTubers).setHardness(5F);
 	
 		registerBlocks();
 	}
@@ -180,6 +204,10 @@ public class BlockLoader {
 	 */
 	private static void registerBlocks() {
 		
+		GameRegistry.registerBlock(BlockDecoCommandBlock_Impulse, "BlockDecoCommandBlock_Impulse");
+		GameRegistry.registerBlock(BlockDecoCommandBlock_Chain, "BlockDecoCommandBlock_Chain");
+		GameRegistry.registerBlock(BlockDecoCommandBlock_Repeat, "BlockDecoCommandBlock_Repeat");
+		
 		//xJSQ Blocks
 		GameRegistry.registerBlock(BlockxJSQOre, "BlockxJSQOre");
 		GameRegistry.registerBlock(BlockxJSQ, "BlockxJSQ");
@@ -187,6 +215,8 @@ public class BlockLoader {
 		//DanTDM Blocks
 		GameRegistry.registerBlock(BlockDanTDMOre, "BlockDanTDMOre");
 		GameRegistry.registerBlock(BlockDanTDM, "BlockDanTDM");
+		GameRegistry.registerBlock(BlockDanTDM_Logo, "BlockDanTDM_Logo");
+		
 	
 		//SethBling Blocks
 		GameRegistry.registerBlock(BlockSethBlingOre, "BlockSethBlingOre");
@@ -242,6 +272,10 @@ public class BlockLoader {
 		//BajanCanadian Blocks
 		GameRegistry.registerBlock(BlockBajanCanadianOre, "BlockBajanCanadianOre");
 		GameRegistry.registerBlock(BlockBajanCanadian, "BlockBajanCanadian");
+
+		//RealThinknoodles Blocks
+		GameRegistry.registerBlock(BlockRealThinknoodlesOre, "BlockRealThinknoodlesOre");
+		GameRegistry.registerBlock(BlockRealThinknoodles, "BlockRealThinknoodles");
 
 	}
 

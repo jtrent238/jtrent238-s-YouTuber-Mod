@@ -74,6 +74,11 @@ public class OreDict {
 				OreDictionary.registerOre("ingot_BajanCanadian",     ItemLoader.ItemBajanCanadianIngot);
 				OreDictionary.registerOre("block_BajanCanadian",     BlockLoader.BlockBajanCanadian);
 
+
+		OreDictionary.registerOre("ore_RealThinknoodles",     BlockLoader.BlockRealThinknoodlesOre);
+				OreDictionary.registerOre("ingot_RealThinknoodles",     ItemLoader.ItemRealThinknoodlesIngot);
+				OreDictionary.registerOre("block_RealThinknoodles",     BlockLoader.BlockRealThinknoodles);
+
 		
 		addItems();
 	}
@@ -98,6 +103,7 @@ public class OreDict {
         replacements.put(new ItemStack(ItemLoader.ItemMagna_InvictusIngot), "ingot_Magna_Invictus");
         replacements.put(new ItemStack(ItemLoader.ItemEckoSoldierIngot), "ingot_EckoSoldier");
         replacements.put(new ItemStack(ItemLoader.ItemBajanCanadianIngot), "ingot_BajanCanadian");
+        replacements.put(new ItemStack(ItemLoader.ItemRealThinknoodlesIngot), "ingot_RealThinknoodles");
 		
 	}
 

@@ -6,5 +6,17 @@
 	"Laurie201_hurt": {"category": "master","sounds": [{"name": "Laurie201_hurt","stream": false}]},
 	"captainspy6_living": {"category": "master","sounds": [{"name": "captainspy6_living","stream": false}]},
 	"captainspy6_death": {"category": "master","sounds": [{"name": "captainspy6_death","stream": false}]},
-	"captainspy6_hurt": {"category": "master","sounds": [{"name": "captainspy6_hurt","stream": false}]}
+	"captainspy6_hurt": {"category": "master","sounds": [{"name": "captainspy6_hurt","stream": false}]},
+	"DanTDM_hurt": {"category": "master","sounds": [{"name": "DanTDM_hurt","stream": false}]},
+	"DanTDM_death": {"category": "master","sounds": [{"name": "DanTDM_death","stream": false}]},
+	"DanTDM_living": {"category": "master","sounds": [{"name": "DanTDM_living","stream": false}]},
+	"RealThinknoodles_living": {"category": "master","sounds": [{"name": "RealThinknoodles_living","stream": false}]},
+	"RealThinknoodles_hurt": {"category": "master","sounds": [{"name": "RealThinknoodles_hurt","stream": false}]},
+	"RealThinknoodles_death": {"category": "master","sounds": [{"name": "RealThinknoodles_death","stream": false}]},
+	"records.tdm_redone": {"category": "master","sounds": [{"name": "records.tdm_redone","stream": true}]},
+	"records.tdm_whathappens": {"category": "master","sounds": [{"name": "records.tdm_whathappens","stream": true}]},
+	"records.tdm_imdead": {"category": "master","sounds": [{"name": "records.tdm_imdead","stream": true}]},
+	"records.tdm_smashingit": {"category": "master","sounds": [{"name": "records.tdm_smashingit","stream": true}]},
+	"records.tdm_mustasche": {"category": "master","sounds": [{"name": "records.tdm_mustasche","stream": true}]},
+	"records.tdm_oldlady": {"category": "master","sounds": [{"name": "records.tdm_oldlady","stream": true}]}
 	}

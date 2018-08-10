@@ -1,7 +1,15 @@
 package com.jtrent238.youtubers;
 
+import com.jtrent238.youtubers.items.ItemDanTDM_CD_1;
+import com.jtrent238.youtubers.items.ItemDanTDM_CD_2;
+import com.jtrent238.youtubers.items.ItemDanTDM_CD_3;
+import com.jtrent238.youtubers.items.ItemDanTDM_CD_4;
+import com.jtrent238.youtubers.items.ItemDanTDM_CD_5;
+import com.jtrent238.youtubers.items.ItemDanTDM_CD_6;
 import com.jtrent238.youtubers.items.ItemDiamondMinecart;
 import com.jtrent238.youtubers.items.ItemDiamondPlayButton;
+import com.jtrent238.youtubers.items.ItemEnchantedDiamond;
+import com.jtrent238.youtubers.items.ItemFanMail;
 import com.jtrent238.youtubers.items.ItemGoldPlayButton;
 import com.jtrent238.youtubers.items.ItemRandomBlockStructure_Placer;
 import com.jtrent238.youtubers.items.ItemRubyPlayButton;
@@ -15,6 +23,7 @@ import com.jtrent238.youtubers.items.armor.HeyItsLuigi_Armor;
 import com.jtrent238.youtubers.items.armor.Joy_Rider_2284_Armor;
 import com.jtrent238.youtubers.items.armor.Laurie201_Armor;
 import com.jtrent238.youtubers.items.armor.Magna_Invictus_Armor;
+import com.jtrent238.youtubers.items.armor.RealThinknoodles_Armor;
 import com.jtrent238.youtubers.items.armor.SSundee_Armor;
 import com.jtrent238.youtubers.items.armor.SethBling_Armor;
 import com.jtrent238.youtubers.items.armor._MrGregor__Armor;
@@ -30,6 +39,7 @@ import com.jtrent238.youtubers.items.materials.ItemHeyItsLuigiIngot;
 import com.jtrent238.youtubers.items.materials.ItemJoy_Rider_2284Ingot;
 import com.jtrent238.youtubers.items.materials.ItemLaurie201Ingot;
 import com.jtrent238.youtubers.items.materials.ItemMagna_InvictusIngot;
+import com.jtrent238.youtubers.items.materials.ItemRealThinknoodlesIngot;
 import com.jtrent238.youtubers.items.materials.ItemSSundeeIngot;
 import com.jtrent238.youtubers.items.materials.ItemSethBlingIngot;
 import com.jtrent238.youtubers.items.materials.Item_MrGregor_Ingot;
@@ -78,6 +88,11 @@ import com.jtrent238.youtubers.items.tools.ItemMagna_InvictusHoe;
 import com.jtrent238.youtubers.items.tools.ItemMagna_InvictusMultiTool;
 import com.jtrent238.youtubers.items.tools.ItemMagna_InvictusPickaxe;
 import com.jtrent238.youtubers.items.tools.ItemMagna_InvictusShovel;
+import com.jtrent238.youtubers.items.tools.ItemRealThinknoodlesAxe;
+import com.jtrent238.youtubers.items.tools.ItemRealThinknoodlesHoe;
+import com.jtrent238.youtubers.items.tools.ItemRealThinknoodlesMultiTool;
+import com.jtrent238.youtubers.items.tools.ItemRealThinknoodlesPickaxe;
+import com.jtrent238.youtubers.items.tools.ItemRealThinknoodlesShovel;
 import com.jtrent238.youtubers.items.tools.ItemSSundeeAxe;
 import com.jtrent238.youtubers.items.tools.ItemSSundeeHoe;
 import com.jtrent238.youtubers.items.tools.ItemSSundeeMultiTool;
@@ -121,6 +136,7 @@ import com.jtrent238.youtubers.items.tools.weapons.ItemHeyItsLuigiSword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemJoy_Rider_2284Sword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemLaurie201Sword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemMagna_InvictusSword;
+import com.jtrent238.youtubers.items.tools.weapons.ItemRealThinknoodlesSword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemSSundeeSword;
 import com.jtrent238.youtubers.items.tools.weapons.ItemSethBlingSword;
 import com.jtrent238.youtubers.items.tools.weapons.Item_MrGregor_Sword;
@@ -144,6 +160,7 @@ public class ItemLoader {
 	public static Item ItemGoldPlayButton;
 	public static Item ItemDiamondPlayButton;
 	public static Item ItemRubyPlayButton;
+	public static Item ItemFanMail;
 	
 	//xJSQ Stuff
 	public static Item ItemxJSQIngot;
@@ -173,7 +190,14 @@ public class ItemLoader {
 	public static Item ItemDanTDMHoe;
 	public static Item ItemDanTDMMultiTool;
 	public static Item ItemDiamondMinecart;
-	
+	public static Item ItemEnchantedDiamond;
+	public static Item ItemDanTDM_CD_1;
+	public static Item ItemDanTDM_CD_2;
+	public static Item ItemDanTDM_CD_3;
+	public static Item ItemDanTDM_CD_4;
+	public static Item ItemDanTDM_CD_5;
+	public static Item ItemDanTDM_CD_6;
+
 	//SethBling Stuff
 	public static Item ItemSethBlingIngot;
 	public static Item ItemSethBlingHelment;
@@ -343,6 +367,19 @@ public class ItemLoader {
 	public static Item ItemBajanCanadianHoe;
 	public static Item ItemBajanCanadianMultiTool;
 	
+	//RealThinknoodles Stuff
+	public static Item ItemRealThinknoodlesIngot;
+	public static Item ItemRealThinknoodlesHelment;
+	public static Item ItemRealThinknoodlesChestplate;
+	public static Item ItemRealThinknoodlesLeggings;
+	public static Item ItemRealThinknoodlesBoots;
+	public static Item ItemRealThinknoodlesSword;
+	public static Item ItemRealThinknoodlesPickaxe;
+	public static Item ItemRealThinknoodlesAxe;
+	public static Item ItemRealThinknoodlesShovel;
+	public static Item ItemRealThinknoodlesHoe;
+	public static Item ItemRealThinknoodlesMultiTool;
+	
 	
 	private static int JSQ = 10;			//xJSQ Multiplier
 	private static int TDM = 10;			//DanTDM Multiplier
@@ -359,6 +396,7 @@ public class ItemLoader {
 	private static int MAGINV = 10;			//Magna_Invictus Multiplier
 	private static int ECKO = 10;			//EckoSoldier Multiplier
 	private static int BCAN = 10;			//BajanCanadian Multiplier
+	private static int RTN = 10;			//RealThinknoodles Multiplier
 	
 	//xJSQ Tool & Armor Material
 	public static ArmorMaterial xJSQ_ARMOR = EnumHelper.addArmorMaterial("xJSQ_ARMOR", 16, new int[] {3 * JSQ, 8 * JSQ, 6 * JSQ, 3 * JSQ}, 30 * JSQ);
@@ -420,6 +458,10 @@ public class ItemLoader {
 	public static ArmorMaterial BajanCanadian_ARMOR = EnumHelper.addArmorMaterial("BajanCanadian_ARMOR", 16, new int[] {3 * BCAN, 8 * BCAN, 6 * BCAN, 3 * BCAN}, 30 * BCAN);
 	public static ToolMaterial BajanCanadian_TOOL = EnumHelper.addToolMaterial("BajanCanadian_TOOL", 3 * BCAN, 1561 * BCAN, 8.0F * BCAN, 3.0F * BCAN, 10 * BCAN);
 
+	//RealThinknoodles Tool & Armor Material
+	public static ArmorMaterial RealThinknoodles_ARMOR = EnumHelper.addArmorMaterial("RealThinknoodles_ARMOR", 16, new int[] {3 * RTN, 8 * RTN, 6 * RTN, 3 * RTN}, 30 * RTN);
+	public static ToolMaterial RealThinknoodles_TOOL = EnumHelper.addToolMaterial("RealThinknoodles_TOOL", 3 * RTN, 1561 * RTN, 8.0F * RTN, 3.0F * RTN, 10 * RTN);
+
 	/**
 	 * Load Items.
 	 */
@@ -432,7 +474,8 @@ public class ItemLoader {
 		ItemGoldPlayButton = new ItemGoldPlayButton().setUnlocalizedName("ItemGoldPlayButton").setTextureName("youtubers:ItemGoldPlayButton").setCreativeTab(YouTubers.YouTubers);
 		ItemDiamondPlayButton = new ItemDiamondPlayButton().setUnlocalizedName("ItemDiamondPlayButton").setTextureName("youtubers:ItemDiamondPlayButton").setCreativeTab(YouTubers.YouTubers);
 		ItemRubyPlayButton = new ItemRubyPlayButton().setUnlocalizedName("ItemRubyPlayButton").setTextureName("youtubers:ItemRubyPlayButton").setCreativeTab(YouTubers.YouTubers);
-
+		ItemFanMail = new ItemFanMail().setUnlocalizedName("ItemFanMail").setTextureName("youtubers:ItemFanMail").setCreativeTab(YouTubers.YouTubers);
+		
 		//xJSQ Stuff
 		ItemxJSQIngot = new ItemxJSQIngot().setUnlocalizedName("ItemxJSQIngot").setTextureName("youtubers:ItemxJSQIngot").setCreativeTab(YouTubers.YouTubers);
 		ItemxJSQHelment = new xJSQ_Armor(xJSQ_ARMOR, 0, 0).setUnlocalizedName("ItemxJSQHelment").setTextureName("youtubers:ItemxJSQHelment").setCreativeTab(YouTubers.YouTubers);
@@ -461,7 +504,14 @@ public class ItemLoader {
 		ItemDanTDMHoe = new ItemDanTDMHoe(DanTDM_TOOL).setUnlocalizedName("ItemDanTDMHoe").setTextureName("youtubers:ItemDanTDMHoe").setCreativeTab(YouTubers.YouTubers);
 		ItemDanTDMMultiTool = new ItemDanTDMMultiTool(DanTDM_TOOL).setUnlocalizedName("ItemDanTDMMultiTool").setTextureName("youtubers:ItemDanTDMMultiTool").setCreativeTab(YouTubers.YouTubers);
 		ItemDiamondMinecart = new ItemDiamondMinecart(0).setUnlocalizedName("ItemDiamondMinecart").setTextureName("youtubers:ItemDiamondMinecart").setCreativeTab(YouTubers.YouTubers);
-		
+		ItemEnchantedDiamond = new ItemEnchantedDiamond().setUnlocalizedName("ItemEnchantedDiamond").setTextureName("minecraft:diamond").setCreativeTab(YouTubers.YouTubers);
+		ItemDanTDM_CD_1 = new ItemDanTDM_CD_1("tdm_redone").setUnlocalizedName("ItemDanTDM_CD_1").setCreativeTab(YouTubers.YouTubers);
+		ItemDanTDM_CD_2 = new ItemDanTDM_CD_2("tdm_whathappens").setUnlocalizedName("ItemDanTDM_CD_2").setCreativeTab(YouTubers.YouTubers);
+		ItemDanTDM_CD_3 = new ItemDanTDM_CD_3("tdm_imdead").setUnlocalizedName("ItemDanTDM_CD_3").setCreativeTab(YouTubers.YouTubers);
+		ItemDanTDM_CD_4 = new ItemDanTDM_CD_4("tdm_smashingit").setUnlocalizedName("ItemDanTDM_CD_4").setCreativeTab(YouTubers.YouTubers);
+		ItemDanTDM_CD_5 = new ItemDanTDM_CD_5("tdm_mustasche").setUnlocalizedName("ItemDanTDM_CD_5").setCreativeTab(YouTubers.YouTubers);
+		ItemDanTDM_CD_6 = new ItemDanTDM_CD_6("tdm_oldlady").setUnlocalizedName("ItemDanTDM_CD_6").setCreativeTab(YouTubers.YouTubers);
+
 		//SethBling Stuff
 		ItemSethBlingIngot = new ItemSethBlingIngot().setUnlocalizedName("ItemSethBlingIngot").setTextureName("youtubers:ItemSethBlingIngot").setCreativeTab(YouTubers.YouTubers);
 		ItemSethBlingHelment = new SethBling_Armor(SethBling_ARMOR, 0, 0).setUnlocalizedName("ItemSethBlingHelment").setTextureName("youtubers:ItemSethBlingHelment").setCreativeTab(YouTubers.YouTubers);
@@ -631,6 +681,20 @@ public class ItemLoader {
 		ItemBajanCanadianHoe = new ItemBajanCanadianHoe(BajanCanadian_TOOL).setUnlocalizedName("ItemBajanCanadianHoe").setTextureName("youtubers:ItemBajanCanadianHoe").setCreativeTab(YouTubers.YouTubers);
 		ItemBajanCanadianMultiTool = new ItemBajanCanadianMultiTool(BajanCanadian_TOOL).setUnlocalizedName("ItemBajanCanadianMultiTool").setTextureName("youtubers:ItemBajanCanadianMultiTool").setCreativeTab(YouTubers.YouTubers);
 
+
+		//RealThinknoodles Stuff
+		ItemRealThinknoodlesIngot = new ItemRealThinknoodlesIngot().setUnlocalizedName("ItemRealThinknoodlesIngot").setTextureName("youtubers:ItemRealThinknoodlesIngot").setCreativeTab(YouTubers.YouTubers);
+		ItemRealThinknoodlesHelment = new RealThinknoodles_Armor(RealThinknoodles_ARMOR, 0, 0).setUnlocalizedName("ItemRealThinknoodlesHelment").setTextureName("youtubers:ItemRealThinknoodlesHelment").setCreativeTab(YouTubers.YouTubers);
+		ItemRealThinknoodlesChestplate = new RealThinknoodles_Armor(RealThinknoodles_ARMOR, 1, 1).setUnlocalizedName("ItemRealThinknoodlesChestplate").setTextureName("youtubers:ItemRealThinknoodlesChestplate").setCreativeTab(YouTubers.YouTubers);
+		ItemRealThinknoodlesLeggings = new RealThinknoodles_Armor(RealThinknoodles_ARMOR, 2, 2).setUnlocalizedName("ItemRealThinknoodlesLeggings").setTextureName("youtubers:ItemRealThinknoodlesLeggings").setCreativeTab(YouTubers.YouTubers);
+		ItemRealThinknoodlesBoots = new RealThinknoodles_Armor(RealThinknoodles_ARMOR, 3, 3).setUnlocalizedName("ItemRealThinknoodlesBoots").setTextureName("youtubers:ItemRealThinknoodlesBoots").setCreativeTab(YouTubers.YouTubers);
+		ItemRealThinknoodlesSword = new ItemRealThinknoodlesSword(RealThinknoodles_TOOL).setUnlocalizedName("ItemRealThinknoodlesSword").setTextureName("youtubers:ItemRealThinknoodlesSword").setCreativeTab(YouTubers.YouTubers);
+		ItemRealThinknoodlesPickaxe = new ItemRealThinknoodlesPickaxe(RealThinknoodles_TOOL).setUnlocalizedName("ItemRealThinknoodlesPickaxe").setTextureName("youtubers:ItemRealThinknoodlesPickaxe").setCreativeTab(YouTubers.YouTubers);
+		ItemRealThinknoodlesAxe = new ItemRealThinknoodlesAxe(RealThinknoodles_TOOL).setUnlocalizedName("ItemRealThinknoodlesAxe").setTextureName("youtubers:ItemRealThinknoodlesAxe").setCreativeTab(YouTubers.YouTubers);
+		ItemRealThinknoodlesShovel = new ItemRealThinknoodlesShovel(RealThinknoodles_TOOL).setUnlocalizedName("ItemRealThinknoodlesShovel").setTextureName("youtubers:ItemRealThinknoodlesShovel").setCreativeTab(YouTubers.YouTubers);
+		ItemRealThinknoodlesHoe = new ItemRealThinknoodlesHoe(RealThinknoodles_TOOL).setUnlocalizedName("ItemRealThinknoodlesHoe").setTextureName("youtubers:ItemRealThinknoodlesHoe").setCreativeTab(YouTubers.YouTubers);
+		ItemRealThinknoodlesMultiTool = new ItemRealThinknoodlesMultiTool(RealThinknoodles_TOOL).setUnlocalizedName("ItemRealThinknoodlesMultiTool").setTextureName("youtubers:ItemRealThinknoodlesMultiTool").setCreativeTab(YouTubers.YouTubers);
+
 		registerItems();
 		
 	}
@@ -646,7 +710,8 @@ public class ItemLoader {
 		GameRegistry.registerItem(ItemGoldPlayButton, ItemGoldPlayButton.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(ItemDiamondPlayButton, ItemDiamondPlayButton.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(ItemRubyPlayButton, ItemRubyPlayButton.getUnlocalizedName().substring(5));
-
+		GameRegistry.registerItem(ItemFanMail, ItemFanMail.getUnlocalizedName().substring(5));
+		
 		//xJSQ Stuff
 		GameRegistry.registerItem(ItemxJSQIngot, ItemxJSQIngot.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(ItemxJSQHelment, ItemxJSQHelment.getUnlocalizedName().substring(5));
@@ -675,6 +740,13 @@ public class ItemLoader {
 		GameRegistry.registerItem(ItemDanTDMHoe, ItemDanTDMHoe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(ItemDanTDMMultiTool, ItemDanTDMMultiTool.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(ItemDiamondMinecart, ItemDiamondMinecart.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemEnchantedDiamond, ItemEnchantedDiamond.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemDanTDM_CD_1, ItemDanTDM_CD_1.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemDanTDM_CD_2, ItemDanTDM_CD_2.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemDanTDM_CD_3, ItemDanTDM_CD_3.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemDanTDM_CD_4, ItemDanTDM_CD_4.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemDanTDM_CD_5, ItemDanTDM_CD_5.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemDanTDM_CD_6, ItemDanTDM_CD_6.getUnlocalizedName().substring(5));
 		
 		//SethBling Stuff
 		GameRegistry.registerItem(ItemSethBlingIngot, ItemSethBlingIngot.getUnlocalizedName().substring(5));
@@ -857,6 +929,19 @@ public class ItemLoader {
 		GameRegistry.registerItem(ItemBajanCanadianShovel, ItemBajanCanadianShovel.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(ItemBajanCanadianHoe, ItemBajanCanadianHoe.getUnlocalizedName().substring(5));
 		GameRegistry.registerItem(ItemBajanCanadianMultiTool, ItemBajanCanadianMultiTool.getUnlocalizedName().substring(5));
+
+		//RealThinknoodles Stuff
+		GameRegistry.registerItem(ItemRealThinknoodlesIngot, ItemRealThinknoodlesIngot.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemRealThinknoodlesHelment, ItemRealThinknoodlesHelment.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemRealThinknoodlesChestplate, ItemRealThinknoodlesChestplate.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemRealThinknoodlesLeggings, ItemRealThinknoodlesLeggings.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemRealThinknoodlesBoots, ItemRealThinknoodlesBoots.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemRealThinknoodlesSword, ItemRealThinknoodlesSword.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemRealThinknoodlesPickaxe, ItemRealThinknoodlesPickaxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemRealThinknoodlesAxe, ItemRealThinknoodlesAxe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemRealThinknoodlesShovel, ItemRealThinknoodlesShovel.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemRealThinknoodlesHoe, ItemRealThinknoodlesHoe.getUnlocalizedName().substring(5));
+		GameRegistry.registerItem(ItemRealThinknoodlesMultiTool, ItemRealThinknoodlesMultiTool.getUnlocalizedName().substring(5));
 
 	}
 }

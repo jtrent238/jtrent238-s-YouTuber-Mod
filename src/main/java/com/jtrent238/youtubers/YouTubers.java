@@ -1,6 +1,7 @@
 package com.jtrent238.youtubers;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import com.jtrent238.youtubers.common.CommonProxy;
 import com.jtrent238.youtubers.worldgen.ModWorldGen;
@@ -45,33 +46,17 @@ public class YouTubers
 	
 	
 	public static final String MODID = "jtrent238youtubers";
+	public static boolean epicproportionsmod_loaded;
+	public static boolean epicproportionsmod_halloween_loaded;
+	public static boolean epicproportionsmod_christmas_loaded;
 
 	@Instance(MODID)
     public static YouTubers instance;
-	public static final String MODVERSION = "1.0.1.2";
+	public static final String MODVERSION = "1.0.2.2";
 	public final static String COREVERSION = "1.0.0.3";
 	public static final String MODNAME = "jtrent238's YouTuber Mod";
 	public static final String MODAUTHOR = "jtrent238";
 	public static final String MC = "1.7.10";
-
-	
-	/** This is used to keep track of GUIs that we make*/
-	private static int modGuiIndex = 0;
-
-	/** Set our custom inventory Gui index to the next available Gui index */
-	public static final int GUI_BAG_INV = modGuiIndex++;
-
-
-	private ModContainer mc;
-
-
-	private EntityPlayer player;
-
-
-	private World world;
-
-
-	private IGuiHandler BagGuiHandler;
 
 	@ForgeSubscribe(priority = EventPriority.NORMAL)
     public void eventHandler(RenderGameOverlayEvent event) {
@@ -98,14 +83,36 @@ public void init(FMLInitializationEvent event)
 	Recipes.registerRecpies();
 	EntityLoader.LoadYouTubers();
 	EntityLoader.LoadPlayers();
+	EntityLoader.loadOther();
 	OreDict.addores();
 	//Achievements.loadAchievements();
 	//Stats.RegisterStats();
 	//ChestGen.registerItems();
 	
+	//PlayerList.addPlayers();
 	
-	
+	// String[] arr={"Notch", "N00B", "Herobrine", "MrCrayfish", "Bob"};
+	// Random r=new Random();
+	// int randomPlayer=r.nextInt(arr.length);
+	// System.out.println("Player: " + arr[randomPlayer] + " Loaded");
+	// System.out.println("TEST");
+    
 	GameRegistry.registerWorldGenerator(new ModWorldGen(), 0);
+	
+	if(Loader.isModLoaded("epicproportionsmod")) {
+		epicproportionsmod_loaded = true;
+	}
+	else epicproportionsmod_loaded = false;
+	
+	if(Loader.isModLoaded("epicproportionsmod_halloween")) {
+		epicproportionsmod_halloween_loaded = true;
+	}
+	else epicproportionsmod_halloween_loaded = false;
+	
+	if(Loader.isModLoaded("epicproportionsmod_christmas")) {
+		epicproportionsmod_christmas_loaded = true;
+	}
+	else epicproportionsmod_christmas_loaded = false;
 	
 }
 
@@ -138,20 +145,12 @@ public static CreativeTabs YouTubers = new CreativeTabs("YouTubers")
 	};
 
 
-public static Object logger;
-
-
-
-
-
-
-
 
 @Mod.EventHandler
 public void postInit(FMLPostInitializationEvent event) {
 	{
+
 		
-	    
 	}
 }
 

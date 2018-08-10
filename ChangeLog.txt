@@ -1,5 +1,28 @@
 jtrent238's YouTubers Changelog
 
+version
+- Added FanMail
+- Added Grim
+- Added Decorative Command Block
+- Added Decorative Chain Command Block
+- Added Decorative Repeating Command Block
+- Added Crazy Fan
+- Added Enchanted Diamond
+- Added Dr. Trayaurus
+- Added McDuck
+- Added Terrance
+- Added Craig The Mailman
+- Added Fake DanTDM
+- Added DanTDM hurt sound
+- Added DanTDM death sound
+- Added DanTDM living sound
+- Added DanTDM Record [The Red one has been chosen]
+- Added DanTDM Record [Let's see what Happens]
+- Added DanTDM Record [I'M DEAD! I'M DEAD!]
+- Added DanTDM Record [SMASHING IT!]
+- Added DanTDM Record [I LIKE YOUR MUSTASCHE!]
+- Added DanTDM Record [I'M AN OLD LADY!]
+
 1.0.1.2
 - Added Silver YouTube Play Button
 - Added Gold YouTube Play Button

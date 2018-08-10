@@ -13,10 +13,24 @@ entity.EntityFar.name=Far
 
 	//other Items
 item.ItemSpawnEgg.name=Spawn Egg
+item.ItemFireHoe.name=Firey Hoe
 item.ItemSilverPlayButton.name=Silver YouTube Play Button
 item.ItemGoldPlayButton.name=Gold YouTube Play Button
 item.ItemDiamondPlayButton.name=Diamond YouTube Play Button
 item.ItemRubyPlayButton.name=Ruby YouTube Play Button
+item.ItemFanMail.name=§bFan Mail
+
+	//other Blocks
+tile.BlockDecoCommandBlock_Impulse.name=Command Block [Decorative]
+tile.BlockDecoCommandBlock_Chain.name=Chain Command Block [Decorative]
+tile.BlockDecoCommandBlock_Repeat.name=Repeating Command Block [Decorative]
+
+	// other Entitys
+entity.EntityCrazyFan.name=Crazy Fan
+
+	//Tooltips
+tooltip.youtubers.cmd.deco=Note: Decorative ONLY
+tooltip.youtubers.cmd.break=Can be Broken
 
 	//xJSQ
 entity.EntityxJSQ.name=xJSQ
@@ -32,12 +46,17 @@ item.ItemxJSQShovel.name=xJSQ Shovel
 item.ItemxJSQHoe.name=xJSQ Shovel
 item.ItemxJSQMultiTool.name=xJSQ Multitool
 item.ItemxJSQBeatingStick.name=xJSQ's Beating Stick
-item.ItemFireHoe.name=Firey Hoe
 tile.BlockxJSQOre.name=xJSQ Ore
 tile.BlockxJSQ.name=xJSQ Block
 
 	//DanTDM
 entity.EntityDanTDM.name=DanTDM
+entity.EntityGrim.name=Grim
+entity.EntityTerrance.name=Terrance
+entity.EntityTrayaurus.name=Dr. Trayaurus
+entity.EntityCraigTheMailman.name=Craig The Mailman
+entity.EntityMcDuck.name=McDuck
+entity.EntityFakeDanTDM.name=Fake DanTDM
 item.ItemDanTDMIngot.name=DanTDM Ingot
 item.ItemDanTDMHelment.name=DanTDM Helment
 item.ItemDanTDMChestplate.name=DanTDM Chestplate
@@ -50,8 +69,22 @@ item.ItemDanTDMShovel.name=DanTDM Shovel
 item.ItemDanTDMHoe.name=DanTDM Shovel
 item.ItemDanTDMMultiTool.name=DanTDM Multitool
 item.ItemDiamondMinecart.name=Diamond Minecart
+item.ItemEnchantedDiamond.name=Enchanted Diamond
+item.ItemDanTDM_CD_1.name=DanTDM CD#1
+item.ItemDanTDM_CD_1.desc=The Red one has been chosen [Credit: Ertyez]
+item.ItemDanTDM_CD_2.name=DanTDM CD#2
+item.ItemDanTDM_CD_2.desc=Let's see what Happens [Credit: Ertyez]
+item.ItemDanTDM_CD_3.name=DanTDM CD#3
+item.ItemDanTDM_CD_3.desc=I'M DEAD! I'M DEAD! [Credit: Endigo]
+item.ItemDanTDM_CD_4.name=DanTDM CD#4
+item.ItemDanTDM_CD_4.desc=SMASHING IT! [Credit: Endigo]
+item.ItemDanTDM_CD_5.name=DanTDM CD#5
+item.ItemDanTDM_CD_5.desc=I LIKE YOUR MUSTASCHE! [Credit: Endigo]
+item.ItemDanTDM_CD_6.name=DanTDM CD#6
+item.ItemDanTDM_CD_6.desc=I'M AN OLD LADY! [Credit: Endigo]
 tile.BlockDanTDMOre.name=DanTDM Ore
 tile.BlockDanTDM.name=DanTDM Block
+tile.BlockDanTDM_Logo.name=DanTDM Logo Block
 
 	//SethBling
 entity.EntitySethBling.name=SethBling
@@ -263,3 +296,19 @@ item.ItemBajanCanadianHoe.name=BajanCanadian Shovel
 item.ItemBajanCanadianMultiTool.name=BajanCanadian Multitool
 tile.BlockBajanCanadianOre.name=BajanCanadian Ore
 tile.BlockBajanCanadian.name=BajanCanadian Block
+
+//RealThinknoodles
+entity.EntityRealThinknoodles.name=RealThinknoodles
+item.ItemRealThinknoodlesIngot.name=RealThinknoodles Ingot
+item.ItemRealThinknoodlesHelment.name=RealThinknoodles Helment
+item.ItemRealThinknoodlesChestplate.name=RealThinknoodles Chestplate
+item.ItemRealThinknoodlesLeggings.name=RealThinknoodles Leggings
+item.ItemRealThinknoodlesBoots.name=RealThinknoodles Boots
+item.ItemRealThinknoodlesSword.name=RealThinknoodles Sword
+item.ItemRealThinknoodlesPickaxe.name=RealThinknoodles Pickaxe
+item.ItemRealThinknoodlesAxe.name=RealThinknoodles Axe
+item.ItemRealThinknoodlesShovel.name=RealThinknoodles Shovel
+item.ItemRealThinknoodlesHoe.name=RealThinknoodles Shovel
+item.ItemRealThinknoodlesMultiTool.name=RealThinknoodles Multitool
+tile.BlockRealThinknoodlesOre.name=RealThinknoodles Ore
+tile.BlockRealThinknoodles.name=RealThinknoodles Block

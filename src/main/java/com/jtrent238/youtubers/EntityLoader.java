@@ -1,9 +1,17 @@
 package com.jtrent238.youtubers;
 
+import com.jtrent238.youtubers.entity.EntityCraigTheMailman;
+import com.jtrent238.youtubers.entity.EntityCrazyFan;
+import com.jtrent238.youtubers.entity.EntityFakeDanTDM;
+import com.jtrent238.youtubers.entity.EntityGrim;
+import com.jtrent238.youtubers.entity.EntityMcDuck;
+import com.jtrent238.youtubers.entity.EntityTerrance;
+import com.jtrent238.youtubers.entity.EntityTrayaurus;
 import com.jtrent238.youtubers.entity.player.EntityAlexIsCool;
 import com.jtrent238.youtubers.entity.player.EntityCowMan;
 import com.jtrent238.youtubers.entity.player.EntityFar;
 import com.jtrent238.youtubers.entity.player.EntityHER08RINE;
+import com.jtrent238.youtubers.entity.player.EntityRandomPlayer;
 import com.jtrent238.youtubers.entity.player.Entitycaptainspy6;
 import com.jtrent238.youtubers.entity.player.EntitymegablasterT;
 import com.jtrent238.youtubers.entity.youtuber.EntityAntvenom;
@@ -15,6 +23,7 @@ import com.jtrent238.youtubers.entity.youtuber.EntityHeyItsLuigi;
 import com.jtrent238.youtubers.entity.youtuber.EntityJoy_Rider_2284;
 import com.jtrent238.youtubers.entity.youtuber.EntityLaurie201;
 import com.jtrent238.youtubers.entity.youtuber.EntityMagna_Invictus;
+import com.jtrent238.youtubers.entity.youtuber.EntityRealThinknoodles;
 import com.jtrent238.youtubers.entity.youtuber.EntitySSundee;
 import com.jtrent238.youtubers.entity.youtuber.EntitySethBling;
 import com.jtrent238.youtubers.entity.youtuber.Entity_MrGregor_;
@@ -43,6 +52,24 @@ public class EntityLoader {
 	    //DanTDM Registry
 	    EntityRegistry.registerGlobalEntityID(EntityDanTDM.class, "EntityDanTDM",EntityRegistry.findGlobalUniqueEntityId(), 0x42e2f4, 0x415ff4);
 	    EntityRegistry.addSpawn(EntityDanTDM.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+	    	//Grim Registry
+	    	EntityRegistry.registerGlobalEntityID(EntityGrim.class, "EntityGrim",EntityRegistry.findGlobalUniqueEntityId(), 0xd9dce0, 0xa2a5aa);
+	    	EntityRegistry.addSpawn(EntityGrim.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+	    	//Terrance Registry
+	    	EntityRegistry.registerGlobalEntityID(EntityTerrance.class, "EntityTerrance",EntityRegistry.findGlobalUniqueEntityId(), 0xd1b5c6, 0xefdee9);
+	    	EntityRegistry.addSpawn(EntityTerrance.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+	    	//Trayaurus Registry
+	    	EntityRegistry.registerGlobalEntityID(EntityTrayaurus.class, "EntityTrayaurus",EntityRegistry.findGlobalUniqueEntityId(), 0xffffff, 0xe2e2e2);
+	    	EntityRegistry.addSpawn(EntityTrayaurus.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+	    	//CraigTheMailman Registry
+	    	EntityRegistry.registerGlobalEntityID(EntityCraigTheMailman.class, "EntityCraigTheMailman",EntityRegistry.findGlobalUniqueEntityId(), 0x44536b, 0x324d77);
+	    	EntityRegistry.addSpawn(EntityCraigTheMailman.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+	    	//McDuck Registry
+	    	EntityRegistry.registerGlobalEntityID(EntityMcDuck.class, "EntityMcDuck",EntityRegistry.findGlobalUniqueEntityId(), 0xdee2e8, 0xf7d1c5);
+	    	EntityRegistry.addSpawn(EntityMcDuck.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+	    	//Fake DanTDM Registry
+	    	EntityRegistry.registerGlobalEntityID(EntityFakeDanTDM.class, "EntityFakeDanTDM",EntityRegistry.findGlobalUniqueEntityId(), 0x42e2f4, 0x415ff4);
+	    	EntityRegistry.addSpawn(EntityFakeDanTDM.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
 
 	    //Laurie201 Registry
 	    EntityRegistry.registerGlobalEntityID(EntityLaurie201.class, "EntityLaurie201",EntityRegistry.findGlobalUniqueEntityId(), 0xff2100, 0xff9900);
@@ -79,9 +106,9 @@ public class EntityLoader {
 	    //SSundee Registry
 	    EntityRegistry.registerGlobalEntityID(EntitySSundee.class, "EntitySSundee",EntityRegistry.findGlobalUniqueEntityId(), 0x000000, 0x595959);
 	    EntityRegistry.addSpawn(EntitySSundee.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
-	    		//Derp SSundee Registry
-	    		EntityRegistry.registerGlobalEntityID(EntityDerpSSundee.class, "EntityDerpSSundee",EntityRegistry.findGlobalUniqueEntityId(), 0x000000, 0x595959);
-	    		EntityRegistry.addSpawn(EntityDerpSSundee.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+	    	//Derp SSundee Registry
+	    	EntityRegistry.registerGlobalEntityID(EntityDerpSSundee.class, "EntityDerpSSundee",EntityRegistry.findGlobalUniqueEntityId(), 0x000000, 0x595959);
+	    	EntityRegistry.addSpawn(EntityDerpSSundee.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
 	    
 	    //Magna_Invictus Registry
 	    EntityRegistry.registerGlobalEntityID(EntityMagna_Invictus.class, "EntityMagna_Invictus",EntityRegistry.findGlobalUniqueEntityId(), 0x000000, 0x9b0096);
@@ -95,10 +122,18 @@ public class EntityLoader {
 	    EntityRegistry.registerGlobalEntityID(EntityBajanCanadian.class, "EntityBajanCanadian",EntityRegistry.findGlobalUniqueEntityId(), 0x000000, 0xaa1106);
 	    EntityRegistry.addSpawn(EntityBajanCanadian.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
 		
+	    //RealThinknoodles Registry
+	    EntityRegistry.registerGlobalEntityID(EntityRealThinknoodles.class, "EntityRealThinknoodles",EntityRegistry.findGlobalUniqueEntityId(), 0x000000, 0xaa1106);
+	    EntityRegistry.addSpawn(EntityRealThinknoodles.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+		
 	}
 
 	public static void LoadPlayers() {
 
+	    //EntityRandomPlayer Registry
+	    EntityRegistry.registerGlobalEntityID(EntityRandomPlayer.class, "EntityRandomPlayer",EntityRegistry.findGlobalUniqueEntityId(), 0xff9328, 0xff9433);
+	    EntityRegistry.addSpawn(EntityRandomPlayer.class, 5, 4, 6, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+		
 		//captainspy6 Registry
 	    EntityRegistry.registerGlobalEntityID(Entitycaptainspy6.class, "Entitycaptainspy6",EntityRegistry.findGlobalUniqueEntityId(), 0x515dff, 0xff9400);
 	    EntityRegistry.addSpawn(Entitycaptainspy6.class, 2, 1, 3, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
@@ -122,6 +157,14 @@ public class EntityLoader {
 	    //Far Registry
 	    EntityRegistry.registerGlobalEntityID(EntityFar.class, "EntityFar",EntityRegistry.findGlobalUniqueEntityId(), 0xffc4ea, 0xffc4d2);
 	    EntityRegistry.addSpawn(EntityFar.class, 2, 1, 3, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
+	    
+	}
+
+	public static void loadOther() {
+
+	    //CrazyFan Registry
+	    EntityRegistry.registerGlobalEntityID(EntityCrazyFan.class, "EntityCrazyFan",EntityRegistry.findGlobalUniqueEntityId(), 0x99fcbc, 0x1c4f2e);
+	    EntityRegistry.addSpawn(EntityCrazyFan.class, 2, 1, 3, EnumCreatureType.creature, BiomeGenBase.forest, BiomeGenBase.forestHills, BiomeGenBase.jungle, BiomeGenBase.forest, BiomeGenBase.plains, BiomeGenBase.beach, BiomeGenBase.mesa, BiomeGenBase.savanna, BiomeGenBase.desert, BiomeGenBase.desertHills);
 	    
 	}
 

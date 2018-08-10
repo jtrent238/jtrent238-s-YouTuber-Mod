@@ -1,5 +1,7 @@
 package com.jtrent238.youtubers.entity.youtuber;
 
+import com.jtrent238.youtubers.BlockLoader;
+
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.SharedMonsterAttributes;
@@ -111,6 +113,9 @@ protected void addRandomArmor(){
     	this.entityDropItem(new ItemStack(Items.repeater, 1), 1F);
     	this.entityDropItem(new ItemStack(Items.comparator, 1), 1F);
     	this.entityDropItem(new ItemStack(Blocks.redstone_block, 2), 1F);
+    	this.entityDropItem(new ItemStack(BlockLoader.BlockDecoCommandBlock_Chain, 2), 1F);
+    	this.entityDropItem(new ItemStack(BlockLoader.BlockDecoCommandBlock_Impulse, 2), 1F);
+    	this.entityDropItem(new ItemStack(BlockLoader.BlockDecoCommandBlock_Repeat, 2), 1F);
     }
 
     /**

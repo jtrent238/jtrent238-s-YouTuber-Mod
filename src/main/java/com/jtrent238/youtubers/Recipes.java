@@ -201,6 +201,18 @@ public class Recipes {
 		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemBajanCanadianLeggings), "III", "IBI", "IBI", 'I', ItemLoader.ItemBajanCanadianIngot);
 		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemBajanCanadianBoots), "IBI", "IBI", 'I', ItemLoader.ItemBajanCanadianIngot);
 
+		//RealThinknoodles Crafting Recipes
+		GameRegistry.addShapedRecipe(new ItemStack(BlockLoader.BlockRealThinknoodles), "XXX", "XXX", "XXX", 'X', ItemLoader.ItemRealThinknoodlesIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemRealThinknoodlesSword), "I", "I", "S", 'I', ItemLoader.ItemRealThinknoodlesIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemRealThinknoodlesPickaxe), "III", "BSB", "BSB", 'I', ItemLoader.ItemRealThinknoodlesIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemRealThinknoodlesAxe), "IIB", "ISB", "BSB", 'I', ItemLoader.ItemRealThinknoodlesIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemRealThinknoodlesShovel), "BIB", "BSB", "BSB", 'I', ItemLoader.ItemRealThinknoodlesIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemRealThinknoodlesHoe), "IIB", "BSB", "BSB", 'I', ItemLoader.ItemRealThinknoodlesIngot, 'S', Items.stick);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemRealThinknoodlesHelment), "III", "IBI", 'I', ItemLoader.ItemRealThinknoodlesIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemRealThinknoodlesChestplate), "IBI", "III", "III", 'I', ItemLoader.ItemRealThinknoodlesIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemRealThinknoodlesLeggings), "III", "IBI", "IBI", 'I', ItemLoader.ItemRealThinknoodlesIngot);
+		GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.ItemRealThinknoodlesBoots), "IBI", "IBI", 'I', ItemLoader.ItemRealThinknoodlesIngot);
+
 	}
 	
 	/**
